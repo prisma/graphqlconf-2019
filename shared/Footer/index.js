@@ -31,7 +31,7 @@ export const Footer = () => {
             Attend
           </FooterLink>
           <FooterLink href="#speakers">Speakers</FooterLink>
-          <FooterLink href="#sp">Sponsors</FooterLink>
+          <FooterLink href="#s">Sponsors</FooterLink>
           <Link href="/team" passHref>
             <FooterLink>Team</FooterLink>
           </Link>

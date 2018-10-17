@@ -10,7 +10,7 @@ import { Wrapper, Logos, LogosArea, LogoImage } from './style'
 
 export const Sponsors = () => {
   return (
-    <Wrapper>
+    <Wrapper id="s">
       <Container>
         <Title textAlign="center">Want To Sponsor?</Title>
 

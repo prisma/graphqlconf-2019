@@ -10,7 +10,7 @@ import { Speaker } from './Speaker'
 export const Speakers = () => {
   return (
     <Container>
-      <Wrapper>
+      <Wrapper id="speakers">
         <Title>
           Confirmed
           <br />

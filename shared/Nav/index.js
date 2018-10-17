@@ -26,13 +26,13 @@ export const Nav = () => {
           </LogoText>
         </Logo>
 
-        <NavLink hideOnMobile={true} href="http://slack.com">
+        <NavLink hideOnMobile={true} href="http://slack.prisma.io">
           Community
         </NavLink>
 
         <NavLink href="#speakers">Speakers</NavLink>
 
-        <NavLink hideOnMobile={true} href="#schedule">
+        <NavLink hideOnMobile={true} href="#speakers">
           Schedule
         </NavLink>
 
