@@ -23,7 +23,7 @@ export const Speakers = () => {
           <GridItem>
             <Speaker
               name="Lee Byron"
-              bio={'I make things @RobinhoodApp, previously @Facebook. '}
+              bio={'Ex-Facebook, GraphQL co-creator'}
               photoSrc="/static/speakers/lee-byron.jpg"
               twitter="leeb"
               github="leebyron"
@@ -33,7 +33,7 @@ export const Speakers = () => {
           <GridItem>
             <Speaker
               name="Dan Schafer"
-              bio={'Dan is a Software Engineer @Facebook'}
+              bio={'Facebook, GraphQL co-creator'}
               photoSrc="/static/speakers/dan-scghafer.jpg"
               twitter="dlschafer"
               github="dschafer"
@@ -42,7 +42,7 @@ export const Speakers = () => {
           <GridItem>
             <Speaker
               name="Mirela Iclodean"
-              bio={'Mirela is a Software Engineer @Twitter'}
+              bio={'Software Engineer at Twitter'}
               photoSrc="/static/speakers/mirela-iclodean.jpg"
               twitter="MirelaIclodean"
               github="MirelaI"
@@ -55,7 +55,7 @@ export const Speakers = () => {
               name="Who’s there?"
               bio={
                 <>
-                  Spot still available. We want you to speak.{' '}
+                  You?{' '}
                   <a href="https://www.papercall.io/graphqlconf19">
                     Submit a talk!
                   </a>
