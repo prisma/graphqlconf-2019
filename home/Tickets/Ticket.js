@@ -104,6 +104,12 @@ const LinkButton = styled.a`
     #81027e 55.39%,
     #cf0203 95.46%
   );
+  --hover: linear-gradient(
+    420.63deg,
+    #3d00c3 15.93%,
+    #81027e 55.39%,
+    #cf0203 95.46%
+  );
 
   height: 60px;
   width: 100%;
@@ -119,6 +125,9 @@ const LinkButton = styled.a`
 
   color: white;
   background: ${p => (p.isActive ? `var(--bg)` : 'black')};
+  &:hover {
+    background: var(--hover);
+  }
 `
 
 const Note = styled.div`
