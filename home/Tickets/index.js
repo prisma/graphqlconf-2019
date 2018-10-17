@@ -7,6 +7,8 @@ import { Space } from '../../shared/Space'
 import { Wrapper, Rainbow, Grid, GridItem, MobileScrollView } from './style'
 import { Ticket } from './Ticket'
 
+const linkToBuy = `https://graphqlconf2019.eventbrite.com/?aff=website`
+
 export const Tickets = () => {
   return (
     <Wrapper>
@@ -25,35 +27,35 @@ export const Tickets = () => {
               <Ticket
                 title="Super Early Bird"
                 priceInEuro={219}
-                linkToBuy="#"
+                linkToBuy={linkToBuy}
                 activeFrom="2018-10-10"
-                activeUntil="2019-01-01"
+                activeUntil="2019-01-10"
               />
             </GridItem>
             <GridItem>
               <Ticket
                 title="Early Bird"
                 priceInEuro={269}
-                linkToBuy="#"
-                activeFrom="2019-01-02"
+                linkToBuy={linkToBuy}
+                activeFrom="2019-01-11"
                 activeUntil="2019-03-20"
               />
             </GridItem>
             <GridItem>
               <Ticket
-                title="Super Early Bird"
+                title="Regular"
                 priceInEuro={369}
-                linkToBuy="#"
+                linkToBuy={linkToBuy}
                 activeFrom="2019-03-21"
-                activeUntil="2019-05-06"
+                activeUntil="2019-06-13"
               />
             </GridItem>
             <GridItem>
               <Ticket
-                title="Super Early Bird"
+                title="Late Bird"
                 priceInEuro={469}
-                linkToBuy="#"
-                activeFrom="2019-05-07"
+                linkToBuy={linkToBuy}
+                activeFrom="2019-06-14"
               />
             </GridItem>
           </Grid>

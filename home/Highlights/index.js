@@ -25,11 +25,11 @@ export const Highlights = () => {
         <Space height={30} heightOnMobile={10} />
 
         <ButtonsStack data-hover-scale>
-          <Button href="https://medium.com/graphql-europe/watch-all-talks-from-graphql-europe-2018-4a47ee28570a">
+          <Button href="https://www.youtube.com/playlist?list=PLn2e1F9Rfr6lOTXAxwZDlukTVpBxyxeur">
             Watch all the talks
           </Button>
-          <Button href="https://medium.com/graphql-europe/top-5-talks-from-graphql-europe-2017-45c6aa02ef79">
-            Top 5 talks from 2017
+          <Button href="https://medium.com/graphql-europe/watch-all-talks-from-graphql-europe-2018-4a47ee28570a">
+            Top 5 talks from the conference
           </Button>
         </ButtonsStack>
       </Wrapper>

@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 // Local
 import { Container } from '../../shared/Container'
-import { Space } from '../../shared/Space'
 import { X } from '../../shared/vectors/X'
 import {
   Wrapper,
@@ -15,8 +14,7 @@ import {
   XWrapper,
   TwitterIcon,
   MediumIcon,
-  GithubIcon,
-  MailIcon
+  GithubIcon
 } from './style'
 import Logo from '../../shared/vectors/Logo'
 
@@ -29,18 +27,21 @@ export const Footer = () => {
         </LogoColumn>
 
         <Column width={160}>
-          <FooterLink href="http://getticketlinkon">Attend</FooterLink>
+          <FooterLink href="https://graphqlconf2019.eventbrite.com/?aff=website">
+            Attend
+          </FooterLink>
           <FooterLink href="#speakers">Speakers</FooterLink>
           <FooterLink href="#sp">Sponsors</FooterLink>
           <Link href="/team" passHref>
             <FooterLink>Team</FooterLink>
           </Link>
+          <FooterLink href="https://graphql-europe.org">2018</FooterLink>
         </Column>
 
         <Column width={180}>
           <FooterLink href="https://prisma.io">API</FooterLink>
-          <FooterLink href="mailto:support@graphql-europe.org">
-            Email Us
+          <FooterLink href="mailto:support@graphqlconf.org">
+            Contact Us
           </FooterLink>
           <Link href="/code-of-conduct" passHref>
             <FooterLink>Code of Conduct</FooterLink>

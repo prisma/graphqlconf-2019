@@ -58,12 +58,7 @@ export default class MyDocument extends Document {
         <Head>
           {this.props.styleTags}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <script src="https://use.typekit.net/fkv8pfd.js" />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `try{Typekit.load({ async: true });}catch(e){}`
-            }}
-          />
+          <link rel="stylesheet" href="https://use.typekit.net/rtg1xpk.css" />
         </Head>
         <body>
           <Main />

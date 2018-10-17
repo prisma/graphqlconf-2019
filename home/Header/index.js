@@ -42,11 +42,15 @@ export default () => (
 
         <Right>
           <LocationAndDate>
-            Kosmos, Berlin
+            Berlin,
             <br />
-            June 20-21
+            Karl-Marx-Allee 131a
+            <br />
+            June 20-21, 2019
           </LocationAndDate>
-          <WhiteButtonLink href="#tickets">Get Ticket</WhiteButtonLink>
+          <WhiteButtonLink href="https://graphqlconf2019.eventbrite.com/?aff=website">
+            Get Ticket
+          </WhiteButtonLink>
         </Right>
       </Flex>
     </Container>

@@ -34,7 +34,7 @@ export const MobileLineBreak = styled.span`
 `
 
 export const Description = styled.p`
-  font-family: 'Proxima Nova';
+  font-family: proxima-nova, sans-serif;
   font-size: 18px;
   line-height: 1.6;
   color: white;

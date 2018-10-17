@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { ChevronRight } from '../../shared/vectors/ChevronRight'
 
 export const JoinSlack = () => (
-  <Wrapper href="https://prisma.slack.com">
+  <Wrapper href="https://slack.prisma.io/">
     <Icon>i</Icon>
     <Text>
       Join us in Prisma's Slack: <Channel>#graphql-conf</Channel>

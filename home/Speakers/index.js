@@ -56,7 +56,7 @@ export const Speakers = () => {
               bio={
                 <>
                   Spot still available. We want you to speak.{' '}
-                  <a href="https://google.com/search?q=graphql+europe+2019+call+for+papers+papercall">
+                  <a href="https://www.papercall.io/graphqlconf19">
                     Submit a talk!
                   </a>
                 </>

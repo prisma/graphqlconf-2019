@@ -102,6 +102,7 @@ export const SpinningLogo = styled.div`
 export const Right = styled.div`
   margin-left: auto;
   align-self: flex-end;
+  text-align: right;
 
   padding-bottom: 35px;
 

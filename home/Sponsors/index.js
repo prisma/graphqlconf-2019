@@ -25,13 +25,13 @@ export const Sponsors = () => {
         <Space height={38} heightOnMobile={24} />
 
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <WhiteButtonLink href="mailto:sponsors@graphql-europe.org">
+          <WhiteButtonLink href="mailto:sponsors@graphqlconf.org">
             Contact us
           </WhiteButtonLink>
         </div>
 
         <LogosArea>
-          <Logos>
+          {/* <Logos>
             <LogoImage href="#">
               <ReactImage src="/static/sponsors/n26.svg" />
             </LogoImage>
@@ -44,7 +44,7 @@ export const Sponsors = () => {
             <LogoImage href="#">
               <ReactImage src="/static/sponsors/apollo.svg" />
             </LogoImage>
-          </Logos>
+          </Logos> */}
         </LogosArea>
       </Container>
     </Wrapper>

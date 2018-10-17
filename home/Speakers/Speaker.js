@@ -111,7 +111,7 @@ const IconLink = styled.a`
 const Bio = styled.div`
   margin-top: 8px;
 
-  font-family: 'Proxima Nova';
+  font-family: proxima-nova, sans-serif;
   font-size: 16px;
   line-height: 1.45;
   color: rgba(255, 255, 255, 0.5);
