@@ -57,6 +57,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           {this.props.styleTags}
+          <title>GraphQL Conf 2019</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="stylesheet" href="https://use.typekit.net/rtg1xpk.css" />
         </Head>
