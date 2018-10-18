@@ -30,13 +30,13 @@ export const Nav = () => {
           Community
         </NavLink>
 
-        <NavLink href="#speakers">Speakers</NavLink>
+        <NavLink href="/#speakers">Speakers</NavLink>
 
-        <NavLink href="#speakers" hideOnMobile={true}>
+        <NavLink href="/#speakers" hideOnMobile={true}>
           Schedule
         </NavLink>
 
-        <Link href="/team" passHref>
+        <Link href="/team" passHref prefetch={true}>
           <NavLink hideOnMobile={true}>Team</NavLink>
         </Link>
 

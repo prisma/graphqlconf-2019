@@ -5,8 +5,8 @@ import { Title } from '../../shared/Section'
 import { Container } from '../../shared/Container'
 import { Space } from '../../shared/Space'
 import { AnchorPoint } from '../../shared/AnchorPoint'
+import { PersonProfile } from '../../shared/PersonProfile'
 import { Wrapper, Grid, GridItem } from './style'
-import { Speaker } from './Speaker'
 
 export const Speakers = () => {
   return (
@@ -23,7 +23,7 @@ export const Speakers = () => {
 
         <Grid>
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Lee Byron"
               bio={'Ex-Facebook, GraphQL co-creator'}
               photoSrc="/static/speakers/lee-byron.jpg"
@@ -33,7 +33,7 @@ export const Speakers = () => {
             />
           </GridItem>
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Dan Schafer"
               bio={'Facebook, GraphQL co-creator'}
               photoSrc="/static/speakers/dan-scghafer.jpg"
@@ -42,7 +42,7 @@ export const Speakers = () => {
             />
           </GridItem>
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Mirela Iclodean"
               bio={'Software Engineer at Twitter'}
               photoSrc="/static/speakers/mirela-iclodean.jpg"
@@ -53,7 +53,7 @@ export const Speakers = () => {
 
           {/* Don't remove place holder until CFP has ended */}
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Who’s there?"
               bio={
                 <>

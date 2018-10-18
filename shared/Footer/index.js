@@ -35,8 +35,8 @@ export const Footer = () => {
             <FooterLink href="https://graphqlconf2019.eventbrite.com/?aff=website">
               Attend
             </FooterLink>
-            <FooterLink href="#speakers">Speakers</FooterLink>
-            <FooterLink href="#sp">Sponsors</FooterLink>
+            <FooterLink href="/#speakers">Speakers</FooterLink>
+            <FooterLink href="/#sp">Sponsors</FooterLink>
             <Link href="/team" passHref>
               <FooterLink>Team</FooterLink>
             </Link>

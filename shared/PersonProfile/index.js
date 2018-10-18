@@ -9,7 +9,7 @@ import { mobile } from '../../utils/media'
 import GithubIcon from './GithubIcon'
 import TwitterIcon from './TwitterIcon'
 
-export const Speaker = ({
+export const PersonProfile = ({
   name,
   bio,
   photoSrc,
@@ -75,6 +75,10 @@ const StyledReactImage = styled(ReactImage)`
 
 const Profile = styled.div`
   margin-top: 46px;
+
+  ${mobile(css`
+    margin-top: 26px;
+  `)};
 `
 
 const FirstRow = styled.div`
@@ -86,6 +90,7 @@ const Name = styled.div`
   font-weight: bold;
   font-size: 18px;
   line-height: 1.4;
+  vertical-align: middle;
 `
 
 const Links = styled.div`
