@@ -3,6 +3,9 @@ import styled, { css } from 'styled-components'
 // Utils
 import { mobile } from '../../utils/media'
 
+// Local
+import { AnchorLink } from '../AnchorPoint'
+
 export const Wrapper = styled.footer`
   display: flex;
   align-items: flex-start;

@@ -4,13 +4,15 @@ import React from 'react'
 import { Title } from '../../shared/Section'
 import { Container } from '../../shared/Container'
 import { Space } from '../../shared/Space'
+import { AnchorPoint } from '../../shared/AnchorPoint'
 import { Wrapper, Grid, GridItem } from './style'
 import { Speaker } from './Speaker'
 
 export const Speakers = () => {
   return (
     <Container>
-      <Wrapper id="speakers">
+      <AnchorPoint id="speakers" />
+      <Wrapper>
         <Title>
           Confirmed
           <br />

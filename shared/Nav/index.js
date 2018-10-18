@@ -32,7 +32,7 @@ export const Nav = () => {
 
         <NavLink href="#speakers">Speakers</NavLink>
 
-        <NavLink hideOnMobile={true} href="#speakers">
+        <NavLink href="#speakers" hideOnMobile={true}>
           Schedule
         </NavLink>
 

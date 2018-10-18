@@ -11,6 +11,7 @@ import {
   LogoColumn,
   OrganizersColumn,
   FooterLink,
+  FooterAnchorLink,
   XWrapper,
   TwitterIcon,
   MediumIcon,
@@ -31,7 +32,7 @@ export const Footer = () => {
             Attend
           </FooterLink>
           <FooterLink href="#speakers">Speakers</FooterLink>
-          <FooterLink href="#s">Sponsors</FooterLink>
+          <FooterLink href="#sp">Sponsors</FooterLink>
           <Link href="/team" passHref>
             <FooterLink>Team</FooterLink>
           </Link>
