@@ -57,7 +57,7 @@ export const Speakers = () => {
               name="Who’s there?"
               bio={
                 <>
-                  You?{' '}
+                  You.{' '}
                   <a href="https://www.papercall.io/graphqlconf19">
                     Submit a talk!
                   </a>
