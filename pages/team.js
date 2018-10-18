@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 
 // Local
 import { Space } from '../shared/Space'
@@ -11,6 +12,10 @@ import { Footer } from '../shared/Footer'
 
 export default () => (
   <>
+    <Head>
+      <title>Team - GraphQL Conf</title>
+    </Head>
+
     <PageHeader title="Who we are" artwork={<Artwork />} />
 
     <Space height={80} heightOnMobile={48} />

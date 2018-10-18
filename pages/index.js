@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 
 // Local
 import { Space } from '../shared/Space'
@@ -17,6 +18,10 @@ import { Footer } from '../shared/Footer'
 
 export default () => (
   <>
+    <Head>
+      <title>GraphQL Conf - Berlin 2019 </title>
+    </Head>
+
     <StarsBackground opacity={0.4}>
       <Header />
     </StarsBackground>
