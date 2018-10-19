@@ -5,7 +5,7 @@ import { mobile } from '../../utils/media'
 
 export const Wrapper = styled.header`
   text-align: center;
-  min-height: 870px;
+  min-height: ${p => (p.noArtwork ? 720 : 870)}px;
 
   background-image: url('/static/bg-blingbling.svg'),
     url('/static/patty-patty.svg');

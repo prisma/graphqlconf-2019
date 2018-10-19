@@ -70,7 +70,10 @@ export default class MyDocument extends Document {
             name="twitter:image"
             content="https://graphqlconf.org/static/social-banner-square.jpg"
           />
-
+          <meta
+            name="google-site-verification"
+            content="9MtIA-WiOqQ43uGG66kThpnwTQ4z10oIaGH3r1WkJDA"
+          />
           <meta name="og:card" content="summary" />
           <meta name="og:site" content="@thegraphqlconf" />
           <meta name="og:title" content="GraphQL Conf 2019" />
