@@ -15,7 +15,7 @@ import {
 } from './style'
 
 export class Subscribe extends React.Component {
-  state = { email: '', msg: null, success: null }
+  state = { email: '', msg: null, success: null, loading: false }
 
   render() {
     return (
@@ -60,8 +60,15 @@ export class Subscribe extends React.Component {
                 this.setState({ email: e.currentTarget.value, msg: '' })
               }
             />
-            <Button type="submit">Submit</Button>
-            {this.state.msg && <Message>{this.state.msg}</Message>}
+            <Button type="submit" disabled={this.state.loading}>
+              Submit
+            </Button>
+            {this.state.msg ||
+              (this.state.loading && (
+                <Message>
+                  {this.state.loading ? 'Adding...' : this.state.msg}
+                </Message>
+              ))}
           </Form>
         </Wrapper>
       </Container>
@@ -71,11 +78,14 @@ export class Subscribe extends React.Component {
   submitted = e => {
     e.preventDefault()
 
+    if (this.state.loading) return
+
     const apiUrl =
       process.env.NODE_ENV === 'development'
         ? `http://localhost:3000`
         : `https://graphqlconf-newsletter.now.sh`
 
+    this.setState({ loading: true })
     fetch(apiUrl, {
       method: 'post',
       body: JSON.stringify({
@@ -87,7 +97,8 @@ export class Subscribe extends React.Component {
         this.setState({
           msg: `We added you to the list!`,
           success: true,
-          email: ''
+          email: '',
+          loading: false
         })
         window.setTimeout(() => {
           this.setState({ success: null })
@@ -105,7 +116,7 @@ export class Subscribe extends React.Component {
           msg = `Please enter a valid email!`
         }
 
-        this.setState({ msg, success: false })
+        this.setState({ msg, success: false, loading: false })
       })
 
     return false
