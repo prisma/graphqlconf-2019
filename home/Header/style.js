@@ -86,7 +86,7 @@ export const SpinningLogo = styled.div`
   align-items: center;
   justify-content: center;
 
-  animation: ${spinning} 10s linear infinite;
+  animation: ${spinning} 15s linear infinite;
   transform-origin: center center;
 
   ${mobile(css`

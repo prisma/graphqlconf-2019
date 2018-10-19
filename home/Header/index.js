@@ -42,7 +42,7 @@ export default () => (
 
         <Right>
           <LocationAndDate>
-            Berlin,
+            Kosmos Berlin
             <br />
             Karl-Marx-Allee 131a
             <br />

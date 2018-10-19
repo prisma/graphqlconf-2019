@@ -6,9 +6,9 @@ import modernNormalize from '../utils/modern-normalize'
 injectGlobal`
   ${modernNormalize};
 
-  body, html { 
+  body, html, [data-reactroot] { 
     padding: 0;
-    background: black;
+    background: black !important;
   }
 
   * { 
@@ -58,6 +58,122 @@ export default class MyDocument extends Document {
         <Head>
           {this.props.styleTags}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@thegraphqlconf" />
+          <meta name="twitter:title" content="GraphQL Conf 2019" />
+          <meta
+            name="twitter:description"
+            content="Bringing together the global GraphQL community. Join us on June 20-21, 2019 in Berlin."
+          />
+          <meta
+            name="twitter:image"
+            content="https://graphqlconf.org/static/social-banner-square.jpg"
+          />
+          <meta
+            name="google-site-verification"
+            content="9MtIA-WiOqQ43uGG66kThpnwTQ4z10oIaGH3r1WkJDA"
+          />
+          <meta name="og:card" content="summary" />
+          <meta name="og:site" content="@thegraphqlconf" />
+          <meta name="og:title" content="GraphQL Conf 2019" />
+          <meta
+            name="og:description"
+            content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
+          />
+          <meta
+            name="og:image:url"
+            content="https://graphqlconf.org/static/social-banner-square.jpg"
+          />
+
+          <meta
+            name="description"
+            content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
+          />
+          <meta
+            name="keywords"
+            content="GraphQL,2019,conference,Europe,Berlin"
+          />
+          <meta property="og:url" content="https://graphqlconf.org/" />
+          <link rel="canonical" href="https://graphqlconf.org/" />
+
+          <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="/static/favicons/apple-icon-57x57.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="/static/favicons/apple-icon-60x60.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="/static/favicons/apple-icon-72x72.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="/static/favicons/apple-icon-76x76.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="/static/favicons/apple-icon-114x114.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/static/favicons/apple-icon-120x120.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="/static/favicons/apple-icon-144x144.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/static/favicons/apple-icon-152x152.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/favicons/apple-icon-180x180.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/static/favicons/android-icon-192x192.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicons/favicon-32x32.png?v=4"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="/static/favicons/favicon-96x96.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/favicons/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/static/favicons/manifest.json" />
+          <meta name="msapplication-TileColor" content="#000" />
+          <meta
+            name="msapplication-TileImage"
+            content="/static/favicons/ms-icon-144x144.png"
+          />
+          <meta name="theme-color" content="#000" />
+
           <link rel="stylesheet" href="https://use.typekit.net/rtg1xpk.css" />
         </Head>
         <body>

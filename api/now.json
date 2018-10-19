@@ -1,0 +1,11 @@
+{
+  "public": true,
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  },
+  "alias": "graphqlconf-newsletter",
+  "env": {
+    "PRISMA_SECRET": "@graphqlconf-prisma-secret"
+  }
+}

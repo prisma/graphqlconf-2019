@@ -4,13 +4,15 @@ import React from 'react'
 import { Title } from '../../shared/Section'
 import { Container } from '../../shared/Container'
 import { Space } from '../../shared/Space'
+import { AnchorPoint } from '../../shared/AnchorPoint'
+import { PersonProfile } from '../../shared/PersonProfile'
 import { Wrapper, Grid, GridItem } from './style'
-import { Speaker } from './Speaker'
 
 export const Speakers = () => {
   return (
     <Container>
-      <Wrapper id="speakers">
+      <AnchorPoint id="speakers" />
+      <Wrapper>
         <Title>
           Confirmed
           <br />
@@ -21,9 +23,9 @@ export const Speakers = () => {
 
         <Grid>
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Lee Byron"
-              bio={'I make things @RobinhoodApp, previously @Facebook. '}
+              bio={'Ex-Facebook, GraphQL co-creator'}
               photoSrc="/static/speakers/lee-byron.jpg"
               twitter="leeb"
               github="leebyron"
@@ -31,18 +33,18 @@ export const Speakers = () => {
             />
           </GridItem>
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Dan Schafer"
-              bio={'Dan is a Software Engineer @Facebook'}
+              bio={'Facebook, GraphQL co-creator'}
               photoSrc="/static/speakers/dan-scghafer.jpg"
               twitter="dlschafer"
               github="dschafer"
             />
           </GridItem>
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Mirela Iclodean"
-              bio={'Mirela is a Software Engineer @Twitter'}
+              bio={'Software Engineer at Twitter'}
               photoSrc="/static/speakers/mirela-iclodean.jpg"
               twitter="MirelaIclodean"
               github="MirelaI"
@@ -51,11 +53,11 @@ export const Speakers = () => {
 
           {/* Don't remove place holder until CFP has ended */}
           <GridItem>
-            <Speaker
+            <PersonProfile
               name="Who’s there?"
               bio={
                 <>
-                  Spot still available. We want you to speak.{' '}
+                  You.{' '}
                   <a href="https://www.papercall.io/graphqlconf19">
                     Submit a talk!
                   </a>

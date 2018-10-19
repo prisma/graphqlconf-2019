@@ -3,3 +3,7 @@ out/
 
 node_modules
 .log
+
+api/dist
+.env
+.env.prod

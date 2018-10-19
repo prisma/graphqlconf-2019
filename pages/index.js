@@ -1,22 +1,27 @@
 import React from 'react'
+import Head from 'next/head'
 
 // Local
 import { Space } from '../shared/Space'
 import Header from '../home/Header'
 import { WithPhotoSection } from '../home/WithPhotoSection'
 import { Community } from '../home/Community'
-import { Subscribe } from '../home/Subscribe'
+import { Subscribe } from '../shared/Subscribe'
 import { Speakers } from '../home/Speakers'
 import { StarsBackground } from '../home/StarsBackground'
 import { Highlights } from '../home/Highlights'
 import { Sponsors } from '../home/Sponsors'
 import { Tickets } from '../home/Tickets'
 import { Upcoming } from '../home/Upcoming'
-import { Organizers } from '../home/Organizers'
+import { Organizers } from '../shared/Organizers'
 import { Footer } from '../shared/Footer'
 
 export default () => (
   <>
+    <Head>
+      <title>GraphQL Conf - Berlin 2019 </title>
+    </Head>
+
     <StarsBackground opacity={0.4}>
       <Header />
     </StarsBackground>
@@ -26,12 +31,12 @@ export default () => (
     <WithPhotoSection imageSrc="/static/graphql2.jpg" imageFirstOnMobile={true}>
       {({ Title, Description }) => (
         <>
-          <Title>Attend Europe’s biggest GraphQL- dedicated conference</Title>
+          <Title>Bringing together the global GraphQL community</Title>
           <Description addMarginTop>
-            GraphQL Conf is a non-profit GraphQL conference in Europe with
-            speakers from all around the world. Learn about GraphQL best
-            practices from industry experts and become part of the thriving
-            GraphQL community. GraphQL Conf is organized by Prisma and Honeypot.
+            GraphQL Conf is a non-profit GraphQL conference with speakers from
+            all around the world. Learn about GraphQL best practices from
+            industry experts and become part of the thriving GraphQL community.
+            GraphQL Conf is organized by Prisma and Honeypot.
           </Description>
         </>
       )}

@@ -100,15 +100,12 @@ const PriceTag = styled.div`
 const LinkButton = styled.a`
   --bg: linear-gradient(
     219.63deg,
-    #3d00c3 15.93%,
-    #81027e 55.39%,
-    #cf0203 95.46%
-  );
-  --hover: linear-gradient(
-    420.63deg,
-    #3d00c3 15.93%,
-    #81027e 55.39%,
-    #cf0203 95.46%
+    #3d00c3 7.5%,
+    #81027e 22.5%,
+    #cf0203 48%,
+    #cf0203 55%,
+    #81027e 72.5%,
+    #3d00c3 100%
   );
 
   height: 60px;
@@ -122,11 +119,23 @@ const LinkButton = styled.a`
   margin-top: 20px;
 
   color: white;
-
-  color: white;
   background: ${p => (p.isActive ? `var(--bg)` : 'black')};
+  background-size: 200%;
+  background-position: 105%;
+  transition: background-position 30ms ease-in, box-shadow 140ms ease-out;
+
   &:hover {
-    background: var(--hover);
+    background-position: 190%;
+    filter: brightness(1.1);
+    box-shadow: 0 8px 21px rgba(0, 0, 0, 0.13), 0 0 4px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+    background-position: 200%;
+    filter: brightness(0.9);
+    box-shadow: inset 0 6px 24px rgba(0, 0, 0, 0.1);
   }
 `
 
