@@ -125,7 +125,7 @@ const LinkButton = styled.a`
   transition: background-position 30ms ease-in, box-shadow 140ms ease-out;
 
   &:hover {
-    background-position: 190%;
+    background-position: 200%;
     filter: brightness(1.1);
     box-shadow: 0 8px 21px rgba(0, 0, 0, 0.13), 0 0 4px rgba(0, 0, 0, 0.09);
     transform: translateY(-1px);
