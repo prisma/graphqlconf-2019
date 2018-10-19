@@ -74,7 +74,7 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="9MtIA-WiOqQ43uGG66kThpnwTQ4z10oIaGH3r1WkJDA"
           />
-          <meta property="og:card" content="summary" />
+          <meta property="og:type" content="website" />
           <meta property="og:site" content="@thegraphqlconf" />
           <meta property="og:title" content="GraphQL Conf 2019" />
           <meta
