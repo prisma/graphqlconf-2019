@@ -94,7 +94,7 @@ export class Subscribe extends React.Component {
       .then(res => {
         if (!res.ok) throw res
         this.setState({
-          msg: `We added you to the list!`,
+          msg: `Woo-hoo! 👏 We added you to the list!`,
           success: true,
           email: '',
           loading: false
