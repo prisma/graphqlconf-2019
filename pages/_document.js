@@ -64,7 +64,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:title" content="GraphQL Conf Berlin 2019" />
           <meta
             name="twitter:description"
-            content="Bringing together the global GraphQL community. Learn about GraphQL best practices from industry experts and become part of the thriving GraphQL community."
+            content="Bringing together the global GraphQL community. Join us on June 20-21, 2019 in Berlin."
           />
           <meta
             name="twitter:image"
