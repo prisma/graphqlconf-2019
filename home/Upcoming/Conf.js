@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 
   padding-left: 24px;
   padding-top: 22px;
-  padding-right: 24px;
+  padding-right: 20px;
 
   border-radius: 5px;
   background: ${p => p.backgroundColor || 'black'};
