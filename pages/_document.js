@@ -61,7 +61,7 @@ export default class MyDocument extends Document {
 
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@thegraphqlconf" />
-          <meta name="twitter:title" content="GraphQL Conf Berlin 2019" />
+          <meta name="twitter:title" content="GraphQL Conf 2019" />
           <meta
             name="twitter:description"
             content="Bringing together the global GraphQL community. Join us on June 20-21, 2019 in Berlin."
@@ -73,7 +73,7 @@ export default class MyDocument extends Document {
 
           <meta name="og:card" content="summary" />
           <meta name="og:site" content="@thegraphqlconf" />
-          <meta name="og:title" content="GraphQL Conf Berlin 2019" />
+          <meta name="og:title" content="GraphQL Conf 2019" />
           <meta
             name="og:description"
             content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
