@@ -63,12 +63,11 @@ export class Subscribe extends React.Component {
             <Button type="submit" disabled={this.state.loading}>
               Submit
             </Button>
-            {this.state.msg ||
-              (this.state.loading && (
-                <Message>
-                  {this.state.loading ? 'Adding...' : this.state.msg}
-                </Message>
-              ))}
+            {(this.state.msg || this.state.loading) && (
+              <Message>
+                {this.state.loading ? 'Adding...' : this.state.msg}
+              </Message>
+            )}
           </Form>
         </Wrapper>
       </Container>
