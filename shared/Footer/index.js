@@ -40,7 +40,9 @@ export const Footer = () => {
             <Link href="/team" passHref>
               <FooterLink>Team</FooterLink>
             </Link>
-            <FooterLink href="https://graphql-europe.org">2018</FooterLink>
+            <FooterLink href="https://www.papercall.io/graphqlconf19">
+              Submit Talk
+            </FooterLink>
           </Column>
 
           <Column width={180}>
@@ -54,6 +56,7 @@ export const Footer = () => {
             <Link href="/imprint" passHref>
               <FooterLink href="/imprint">Imprint</FooterLink>
             </Link>
+            <FooterLink href="https://graphql-europe.org">2018</FooterLink>
           </Column>
 
           <Column width={170}>
