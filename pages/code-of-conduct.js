@@ -16,6 +16,10 @@ export default () => (
   <>
     <Head>
       <title>Code of Conduct - GraphQL Conf</title>
+      <meta
+        name="twitter:title"
+        content="Code of Conduct - GraphQL Conf Berlin 2019"
+      />
     </Head>
 
     <article>

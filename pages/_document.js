@@ -59,6 +59,41 @@ export default class MyDocument extends Document {
           {this.props.styleTags}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@thegraphqlconf" />
+          <meta name="twitter:title" content="GraphQL Conf Berlin 2019" />
+          <meta
+            name="twitter:description"
+            content="Bringing together the global GraphQL community. Learn about GraphQL best practices from industry experts and become part of the thriving GraphQL community."
+          />
+          <meta
+            name="twitter:image"
+            content="https://graphqlconf.org/static/social-banner-square.jpg"
+          />
+
+          <meta name="og:card" content="summary" />
+          <meta name="og:site" content="@thegraphqlconf" />
+          <meta name="og:title" content="GraphQL Conf Berlin 2019" />
+          <meta
+            name="og:description"
+            content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
+          />
+          <meta
+            name="og:image:url"
+            content="https://graphqlconf.org/static/social-banner-square.jpg"
+          />
+
+          <meta
+            name="description"
+            content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
+          />
+          <meta
+            name="keywords"
+            content="GraphQL,2019,conference,Europe,Berlin"
+          />
+          <meta property="og:url" content="https://graphqlconf.org/" />
+          <link rel="canonical" href="https://graphqlconf.org/" />
+
           <link
             rel="apple-touch-icon"
             sizes="57x57"

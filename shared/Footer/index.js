@@ -60,7 +60,7 @@ export const Footer = () => {
           </Column>
 
           <Column width={170}>
-            <FooterLink href="https://twitter.com/graphqleu">
+            <FooterLink href="https://twitter.com/TheGraphQLConf">
               <TwitterIcon />
               Twitter
             </FooterLink>

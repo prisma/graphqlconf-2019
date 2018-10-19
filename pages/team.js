@@ -14,6 +14,7 @@ export default () => (
   <>
     <Head>
       <title>Team - GraphQL Conf</title>
+      <meta name="twitter:title" content="Team - GraphQL Conf Berlin 2019" />
     </Head>
 
     <PageHeader title="Who we are" artwork={<Artwork />} />
