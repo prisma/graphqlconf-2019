@@ -13,11 +13,11 @@ export const Community = () => (
   >
     {({ Title, Description }) => (
       <>
-        <Title>Join the GraphQL Conf Community!</Title>
+        <Title>Join the GraphQL Conf Slack!</Title>
         <Description addMarginTop>
-          Join the official GraphQLConf Slack channel. This is your chance to
-          meet your peers, organize informal chats and activities, or ask
-          questions about the conference or Berlin.
+          Connect in the official GraphQL Conf Slack channel. This is your
+          chance to meet your peers, organize informal chats and activities, or
+          ask questions about the conference or Berlin.
         </Description>
         <Space height={30} />
         <JoinSlack />

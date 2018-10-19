@@ -31,12 +31,12 @@ export default () => (
     <WithPhotoSection imageSrc="/static/graphql2.jpg" imageFirstOnMobile={true}>
       {({ Title, Description }) => (
         <>
-          <Title>Attend Europe’s biggest GraphQL- dedicated conference</Title>
+          <Title>Bringing together the global GraphQL community</Title>
           <Description addMarginTop>
-            GraphQL Conf is a non-profit GraphQL conference in Europe with
-            speakers from all around the world. Learn about GraphQL best
-            practices from industry experts and become part of the thriving
-            GraphQL community. GraphQL Conf is organized by Prisma and Honeypot.
+            GraphQL Conf is a non-profit GraphQL conference with speakers from
+            all around the world. Learn about GraphQL best practices from
+            industry experts and become part of the thriving GraphQL community.
+            GraphQL Conf is organized by Prisma and Honeypot.
           </Description>
         </>
       )}
