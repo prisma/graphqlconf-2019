@@ -74,19 +74,19 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="9MtIA-WiOqQ43uGG66kThpnwTQ4z10oIaGH3r1WkJDA"
           />
-          <meta name="og:card" content="summary" />
-          <meta name="og:site" content="@thegraphqlconf" />
-          <meta name="og:title" content="GraphQL Conf 2019" />
+          <meta property="og:card" content="summary" />
+          <meta property="og:site" content="@thegraphqlconf" />
+          <meta property="og:title" content="GraphQL Conf 2019" />
           <meta
-            name="og:description"
+            property="og:description"
             content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
           />
           <meta
-            name="og:image"
+            property="og:image"
             content="https://graphqlconf.org/static/social-banner-rectangle.jpg"
           />
           <meta
-            name="og:image:url"
+            property="og:image:url"
             content="https://graphqlconf.org/static/social-banner-rectangle.jpg"
           />
 
