@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Artwork = props => (
-  <svg width={564} height={92} fill="none" {...props}>
+  <svg viewBox="0 0 564 92" width={564} height={92} fill="none" {...props}>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
