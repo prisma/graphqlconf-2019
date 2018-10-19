@@ -82,6 +82,10 @@ export default class MyDocument extends Document {
             content="Bringing together the global GraphQL community. GraphQL Conf is a non-profit GraphQL conference. Join us June 20-21, 2019 in Berlin."
           />
           <meta
+            name="og:image"
+            content="https://graphqlconf.org/static/social-banner-rectangle.jpg"
+          />
+          <meta
             name="og:image:url"
             content="https://graphqlconf.org/static/social-banner-rectangle.jpg"
           />
