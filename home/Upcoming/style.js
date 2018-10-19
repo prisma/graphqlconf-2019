@@ -14,6 +14,7 @@ export const Rainbow = styled.div`
 
 export const Grid = styled.div`
   display: flex;
+  justify-content: center;
 
   &:hover > * {
     filter: blur(1.2px) opacity(0.9);
@@ -27,14 +28,14 @@ export const Grid = styled.div`
 
 export const GridItem = styled.div`
   margin-right: 13px;
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 1;
   flex-basis: calc((100% + 13px * 3) / 4);
   cursor: pointer;
 
   &:last-child {
     margin-right: 0;
-    margin-bottom: 0; /*mobile*/
+    margin-bottom: 0; /* mobile */
   }
 
   transition: transform 140ms ease-out, filter 160ms ease-out,
