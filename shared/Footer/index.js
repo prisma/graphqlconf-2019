@@ -37,12 +37,12 @@ export const Footer = () => {
             </FooterLink>
             <FooterLink href="/#speakers">Speakers</FooterLink>
             <FooterLink href="/#sp">Sponsors</FooterLink>
-            <Link href="/team" passHref>
-              <FooterLink>Team</FooterLink>
-            </Link>
             <FooterLink href="https://www.papercall.io/graphqlconf19">
               Submit Talk
             </FooterLink>
+            <Link href="/team" passHref>
+              <FooterLink>Team</FooterLink>
+            </Link>
           </Column>
 
           <Column width={180}>
