@@ -5,6 +5,10 @@ import { mobile, desktop } from '../utils/media'
 
 export const Grid = styled.div`
   display: flex;
+
+  ${mobile(css`
+    flex-direction: column;
+  `)};
 `
 
 export const GridItem = styled.div`
