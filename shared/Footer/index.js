@@ -68,7 +68,7 @@ export const Footer = () => {
               <MediumIcon />
               Medium
             </FooterLink>
-            <FooterLink href="https://github.com/morajabi/graphql-conf-2019">
+            <FooterLink href="https://github.com/prisma/graphqlconf-2019">
               <GithubIcon />
               Source
             </FooterLink>
