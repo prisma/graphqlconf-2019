@@ -83,7 +83,7 @@ export default class MyDocument extends Document {
           />
           <meta
             name="og:image:url"
-            content="https://graphqlconf.org/static/social-banner-square.jpg"
+            content="https://graphqlconf.org/static/social-banner-rectangle.jpg"
           />
 
           <meta
