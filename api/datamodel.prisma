@@ -1,0 +1,9 @@
+type User {
+  id: ID! @unique
+  name: String!
+}
+
+type Subscriber {
+  id: ID! @unique
+  email: String! @unique
+}

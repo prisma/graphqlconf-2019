@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "lib": ["dom", "es7", "es2015", "esnext"],
+    "strict": false,
+    "noUnusedLocals": true
+  }
+}
