@@ -121,7 +121,7 @@ const LinkButton = styled.a`
   color: white;
   background: ${p => (p.isActive ? `var(--bg)` : 'black')};
   background-size: 200%;
-  background-position: 105%;
+  background-position: 100%;
   transition: background-position 30ms ease-in, box-shadow 140ms ease-out;
 
   &:hover {
