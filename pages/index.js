@@ -1,5 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
+import Router from 'next/router'
+import * as gtag from '../shared/gtag'
 
 // Local
 import { Space } from '../shared/Space'
@@ -15,6 +17,8 @@ import { Tickets } from '../home/Tickets'
 import { Upcoming } from '../home/Upcoming'
 import { Organizers } from '../shared/Organizers'
 import { Footer } from '../shared/Footer'
+
+Router.events.on('routeChangeComplete', url => gtag.pageview(url))
 
 export default () => (
   <>

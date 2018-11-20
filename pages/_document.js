@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet, injectGlobal } from 'styled-components'
+import { GA_TRACKING_ID } from '../shared/gtag'
 
 import modernNormalize from '../utils/modern-normalize'
 
@@ -179,16 +180,19 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#000" />
 
           <link rel="stylesheet" href="https://use.typekit.net/rtg1xpk.css" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125823364-2" />
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
           <script
             dangerouslySetInnerHTML={{
               __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments)};
-                gtag('js', new Date());
-                gtag('config', 'UA-125823364-2');
-              `,
-            }}
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `}}
           />
         </Head>
         <body>
