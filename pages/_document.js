@@ -179,16 +179,17 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#000" />
 
           <link rel="stylesheet" href="https://use.typekit.net/rtg1xpk.css" />
-      
-          <!-- Global site tag (gtag.js) - Google Analytics -->
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125823364-2"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-125823364-2');
-          </script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125823364-2" />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)};
+                gtag('js', new Date());
+                gtag('config', 'UA-125823364-2');
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
