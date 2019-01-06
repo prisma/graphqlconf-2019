@@ -26,7 +26,7 @@ export const Members = () => {
               'Johannes is a Berlin/SF-based entrepreneur  and founder of Prisma, a flexible backend platform combining GraphQL+ AWS Lambda. He previously built and sold the VR company “Optonaut”. Johannes studied computer science at KIT, Germany and loves cutting- edge mobile/web tech-nologies.'
             }
             photoSrc="/static/team/johannes-schickling.jpg"
-            twitter="_schickling"
+            twitter="schickling"
             github="schickling"
           />
         </GridItem>
