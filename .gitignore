@@ -7,3 +7,5 @@ node_modules
 api/dist
 .env
 .env.prod
+
+.DS_Store

@@ -51,6 +51,26 @@ export const Speakers = () => {
             />
           </GridItem>
 
+          <GridItem>
+            <PersonProfile
+              name="Matthew Mahoney"
+              bio={'Software Engineer at Facebook'}
+              photoSrc="/static/speakers/matthew-mahoney.jpg"
+              twitter=""
+              github="mjmahone"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Sasha Solomon"
+              bio={'Software Engineer at Twitter'}
+              photoSrc="/static/speakers/sasha-solomon.jpg"
+              twitter="sachee"
+              github="sachee"
+            />
+          </GridItem>
+
           {/* Don't remove place holder until CFP has ended */}
           <GridItem>
             <PersonProfile
