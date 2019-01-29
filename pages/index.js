@@ -14,6 +14,7 @@ import { StarsBackground } from '../home/StarsBackground'
 import { Highlights } from '../home/Highlights'
 import { Sponsors } from '../home/Sponsors'
 import { Tickets } from '../home/Tickets'
+import { Opportunity } from '../home/Tickets/Opportunity'
 import { Upcoming } from '../home/Upcoming'
 import { Organizers } from '../shared/Organizers'
 import { Footer } from '../shared/Footer'
@@ -69,6 +70,10 @@ export default () => (
     </StarsBackground>
 
     <Tickets />
+
+    <Space height={114} heightOnMobile={92} />
+
+    <Opportunity />
 
     <Space height={144} heightOnMobile={110} />
 
