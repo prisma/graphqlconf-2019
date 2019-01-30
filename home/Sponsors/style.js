@@ -17,6 +17,7 @@ export const Wrapper = styled.section`
 export const LogosArea = styled.div`
   width: 100%;
   height: 430px;
+  padding-bottom: 20px;
 
   display: flex;
   justify-content: flex-end;

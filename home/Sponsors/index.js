@@ -34,20 +34,11 @@ export const Sponsors = () => {
           </div>
 
           <LogosArea>
-            {/* <Logos>
-            <LogoImage href="#">
-              <ReactImage src="/static/sponsors/n26.svg" />
-            </LogoImage>
-            <LogoImage href="#">
-              <ReactImage src="/static/sponsors/intuit.svg" />
-            </LogoImage>
-            <LogoImage href="#">
-              <ReactImage src="/static/sponsors/fb.svg" />
-            </LogoImage>
-            <LogoImage href="#">
-              <ReactImage src="/static/sponsors/apollo.svg" />
-            </LogoImage>
-          </Logos> */}
+            <Logos>
+              <LogoImage href="https://commercetools.com/">
+                <ReactImage src="/static/sponsors/commercetools.svg" />
+              </LogoImage>
+            </Logos>
           </LogosArea>
         </Container>
       </Wrapper>
