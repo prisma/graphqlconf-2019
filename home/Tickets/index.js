@@ -29,7 +29,7 @@ export const Tickets = () => {
                 priceInEuro={219}
                 linkToBuy={linkToBuy}
                 activeFrom="2018-10-10"
-                activeUntil="2019-01-18"
+                activeUntil="2019-01-22"
               />
             </GridItem>
             <GridItem>
@@ -37,7 +37,7 @@ export const Tickets = () => {
                 title="Early Bird"
                 priceInEuro={269}
                 linkToBuy={linkToBuy}
-                activeFrom="2019-01-19"
+                activeFrom="2019-01-23"
                 activeUntil="2019-03-20"
               />
             </GridItem>

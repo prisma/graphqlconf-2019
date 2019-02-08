@@ -36,7 +36,7 @@ export const Speakers = () => {
             <PersonProfile
               name="Dan Schafer"
               bio={'Facebook, GraphQL co-creator'}
-              photoSrc="/static/speakers/dan-scghafer.jpg"
+              photoSrc="/static/speakers/dan-schafer.jpg"
               twitter="dlschafer"
               github="dschafer"
             />
@@ -68,6 +68,36 @@ export const Speakers = () => {
               photoSrc="/static/speakers/sasha-solomon.jpg"
               twitter="sachee"
               github="sachee"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Nikolas Burk"
+              bio={'Software Engineer at Prisma'}
+              photoSrc="/static/speakers/nikolas-burk.png"
+              twitter="nikolasburk"
+              github="nikolasburk"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Sashko Stubailo"
+              bio={'Software Engineer at Stripe'}
+              photoSrc="/static/speakers/sashko-stubailo.png"
+              twitter="stubailo"
+              github="stubailo"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="James Baxley"
+              bio={'Engineering Manager at Apollo'}
+              photoSrc="/static/speakers/james-baxley.png"
+              twitter="jbaxleyiii"
+              github="jbaxleyiii"
             />
           </GridItem>
 
