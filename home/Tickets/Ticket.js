@@ -5,7 +5,7 @@ import { DateTime } from 'luxon'
 // Utils
 import { mobile } from '../../utils/media'
 
-const now = DateTime.local()
+const now = DateTime.local().startOf('day')
 
 export const Ticket = ({
   title,
