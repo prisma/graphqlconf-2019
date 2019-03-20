@@ -16,6 +16,7 @@ import { Sponsors } from '../home/Sponsors'
 import { Tickets } from '../home/Tickets'
 import { Opportunity } from '../home/Tickets/Opportunity'
 import { Upcoming } from '../home/Upcoming'
+import { Partners } from '../home/Partners'
 import { Organizers } from '../shared/Organizers'
 import { Footer } from '../shared/Footer'
 
@@ -82,6 +83,10 @@ export default () => (
     <Space height={134} heightOnMobile={100} />
 
     <Organizers />
+
+    <Space height={114} heightOnMobile={90} />
+
+    <Partners />
 
     <Space height={114} heightOnMobile={90} />
 
