@@ -37,8 +37,8 @@ export const Footer = () => {
             </FooterLink>
             <FooterLink href="/#speakers">Speakers</FooterLink>
             <FooterLink href="/#sp">Sponsors</FooterLink>
-            <FooterLink href="https://www.papercall.io/graphqlconf19">
-              Submit Talk
+            <FooterLink href="https://www.eventbrite.com/e/graphql-conf-2019-tickets-47172725893?aff=website">
+              Get Tickets
             </FooterLink>
             <Link href="/team" passHref>
               <FooterLink>Team</FooterLink>
