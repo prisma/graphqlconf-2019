@@ -40,8 +40,8 @@ export const Nav = () => {
           <NavLink hideOnMobile={true}>Team</NavLink>
         </Link>
 
-        <NavButtonStyle href="https://www.papercall.io/graphqlconf19">
-          Submit Talk
+        <NavButtonStyle href="https://www.eventbrite.com/e/graphql-conf-2019-tickets-47172725893?aff=website">
+           Get Tickets
         </NavButtonStyle>
       </FlexWrapper>
     </Container>
