@@ -21,7 +21,9 @@ export const Partners = () => {
         >
           <ReactImage src="/static/partners/graphql-asia.svg" />
         </LogoWrapper>
-        <LogoWrapper
+      </Wrapper>
+      <Wrapper>
+      <LogoWrapper
           href="https://www.prisma.io/day"
           target="_blank"
           rel="noopener noreferrer"
