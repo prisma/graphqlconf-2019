@@ -17,10 +17,11 @@ export const Title = styled.div`
 `
 
 export const LogoWrapper = styled.a`
+  margin: 20px 40px;
+
   ${mobile(css`
     width: 100%;
     height: auto;
-    margin-bottom: 40px;
     text-align: center;
 
     &:last-child {
