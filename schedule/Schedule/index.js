@@ -8,9 +8,9 @@ import { Event } from '../Event'
 
 // Icons
 import Coffee from '../Coffee'
+import Lunch from '../Lunch'
 
 // Schedule
-// export const Schedule = () => {
 export class Schedule extends React.Component {
 
   state = { activeDate: 20 }
@@ -103,7 +103,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="12:15 pm - 2:00 pm"
             title="Lunch break"
-            icon={<Coffee/>}
+            icon={<Lunch/>}
             length="1 h 45 min"
             tag="Break"
           />
