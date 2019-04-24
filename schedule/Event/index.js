@@ -1,24 +1,28 @@
 import React from 'react'
 
-// Locals
+// Styles
 import {
   Card,
   Illustration,
   Photo,
   Row,
   Main,
-  Top,
+  Left,
   Title,
   Time,
-  Bottom,
+  Right,
   Meta,
-  Author,
-  Length,
-  Tag,
+  MetaItem,
   Toggle,
   Arrow,
   Description,
+  Bottom,
 } from './style'
+
+// Icons
+import UserIcon from '../UserIcon'
+import ClockIcon from '../ClockIcon'
+import TagIcon from '../TagIcon'
 
 // Event
 export class Event extends React.Component {
@@ -53,25 +57,39 @@ export class Event extends React.Component {
             {photo && <Photo src={photo} alt={author} />}
           </Illustration>
           <Main>
-            <Top>
+            <Left>
               <Title color={color}>{title}</Title>
-              <Time>{timeslot}</Time>
-            </Top>
-            <Bottom>
               <Meta>
-                {author && <Author>{author}</Author>}
-                <Length>{length}</Length>
-                <Tag>{tag}</Tag>
+                {author && <MetaItem><UserIcon /> {author}</MetaItem>}
+                <MetaItem><ClockIcon /> {length}</MetaItem>
+                <MetaItem><TagIcon /> {tag}</MetaItem>
               </Meta>
+            </Left>
+
+            <Right>
+              <Time>{timeslot}</Time>
               { description &&
                 <Toggle>
                   {this.state.isOpen ? "Close" : "Show More" }
                   <Arrow isOpen={this.state.isOpen} />
                 </Toggle>
               }
-            </Bottom>
+            </Right>
           </Main>
         </Row>
+
+        <Bottom
+          onClick={ description ? () => this.toggleDescription() : null }
+          isToggleable={description || false}>
+          <Time>{timeslot}</Time>
+          { description &&
+            <Toggle>
+              {this.state.isOpen ? "Close" : "Show More" }
+              <Arrow isOpen={this.state.isOpen} />
+            </Toggle>
+          }
+        </Bottom>
+
         { description && this.state.isOpen &&
           <Description>{description}</Description>
         }

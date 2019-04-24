@@ -1,4 +1,7 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+
+// Utils
+import { mobile } from '../../utils/media'
 
 // Locals
 import DropdownArrow from '../DropdownArrow'
@@ -15,7 +18,12 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
   padding: 18px 28px;
+
   ${p => p.isToggleable && `&:hover { cursor: pointer; }`}
+
+  ${mobile(css`
+    align-items: flex-start;
+  `)};
 `
 
 export const Illustration = styled.div`
@@ -38,20 +46,24 @@ export const Photo = styled.img`
 
 export const Main = styled.div`
   flex: 1;
-`
-
-export const Top = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  flex-direction: row;
+
+  ${mobile(css`
+    flex-direction: column;
+    align-items: flex-start;
+  `)};
 `
+
+export const Left = styled.div``
 
 export const Title = styled.h2`
   color: ${p => p.color || "#000"};
   font-size: 25px;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 8px 0;
 `
 
 export const Time = styled.div`
@@ -60,34 +72,62 @@ export const Time = styled.div`
   font-weight: 600;
   text-transform: uppercase;
   color: #000;
-`
-
-export const Bottom = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`
-
-export const Meta = styled.div`
-  display: flex;
-`
-
-export const Author = styled.div`
-  color: #a1a8b3;
-  margin-right: 16px;
-`
-
-export const Length = styled.div`
-  color: #a1a8b3;
-  margin-right: 16px;
-`
-
-export const Tag = styled.div`
-  color: #a1a8b3;
+  white-space: nowrap;
 `
 
 export const Toggle = styled.div`
   color: #a1a8b3;
+`
+
+export const Right = styled.div`
+  text-align: right;
+  display: block;
+
+  ${Toggle} {
+    margin-top: 6px;
+  }
+
+  ${mobile(css`
+    display: none;
+  `)};
+`
+
+export const Bottom = styled.div`
+  display: none;
+  padding: 16px 24px;
+  justify-content: space-between;
+  border-top: 1px solid #F2F2F2;
+
+  ${p => p.isToggleable && `&:hover { cursor: pointer; }`}
+
+  ${mobile(css`
+    display: flex;
+  `)};
+`
+
+export const Meta = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  ${mobile(css`
+    flex-direction: column;
+  `)};
+`
+
+export const MetaItem = styled.div`
+  color: #a1a8b3;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    display: block;
+    margin-right: 8px;
+  }
+
+  ${mobile(css`
+    margin: 4px 0;
+  `)};
 `
 
 export const Arrow = styled(DropdownArrow)`

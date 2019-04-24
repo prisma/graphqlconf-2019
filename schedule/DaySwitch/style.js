@@ -1,4 +1,7 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+
+// Utils
+import { mobile } from '../../utils/media'
 
 export const Switch = styled.div`
   display: flex;
@@ -24,4 +27,14 @@ export const Day = styled.div`
 
   &:first-child { margin-left: 0; }
   &:last-child { margin-right: 0; }
+
+  &:hover {
+    cursor: pointer;
+    ${ p => !p.isActive && `background-color: rgba(255,255,255,0.1);` }
+  }
+
+  ${mobile(css`
+    font-size: 16px;
+    padding: 16px;
+  `)};
 `

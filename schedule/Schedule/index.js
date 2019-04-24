@@ -40,7 +40,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="9:30 am - 10:00 am"
             title="Keynote: GraphQL before GraphQL"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Dan Schafer"
             length="30 min"
             tag="Talk"
@@ -51,7 +51,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="10:00 am - 10:30 am"
             title="FB client side tooling"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Matt Mahoney"
             length="30 min"
             tag="Talk"
@@ -70,7 +70,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="11:00 am - 11:30 am"
             title="Front end testing/mocking"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Sashko Stubailo"
             length="30 min"
             tag="Talk"
@@ -81,7 +81,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="11:30 am - 12:00 pm"
             title="Testing?"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Sasha Solomon"
             length="30 min"
             tag="Talk"
@@ -92,7 +92,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="12:00 pm - 12:15 pm"
             title="Refactoring Your Mind from REST"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Lachlan"
             length="15 min"
             tag="Lightning Talk"
@@ -111,7 +111,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="2:00 pm - 2:30 pm"
             title="Paving a New Path for GraphQL Schemas"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Tim Griesser"
             length="30 min"
             tag="Talk"
@@ -122,7 +122,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="2:30 pm - 3:00 pm"
             title={`Introducing Tartiflette: "SDL First" implementation built for Python 3.6+`}
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Stan Chollett"
             length="30 min"
             tag="Talk"
@@ -133,7 +133,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="3:00 pm - 3:15 pm"
             title="Making design more human with GraphQL"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Bernardo Rapos"
             length="15 min"
             tag="Lightning Talk"
@@ -152,7 +152,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="3:45 pm - 4:15 pm"
             title="How to Move a Mountain? GraphQL Migration Best Practices"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Kewei Qu"
             length="30 min"
             tag="Talk"
@@ -163,7 +163,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="4:15 pm - 4:45 pm"
             title="So you Want to Distribute your GraphQL Schema?"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Marc Andre-Giroux"
             length="30 min"
             tag="Talk"
@@ -174,7 +174,7 @@ export class Schedule extends React.Component {
           <Event
             timeslot="4:45 pm - 5:00 pm"
             title="Compiling GraphQL to be Blazing Fast"
-            photo="https://via.placeholder.com/150"
+            photo="http://placekitten.com/128/128"
             author="Rui Araújo"
             length="15 min"
             tag="Lightning Talk"
