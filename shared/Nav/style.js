@@ -40,7 +40,7 @@ export const NavLink = styled.a`
 export const NavButtonStyle = styled.a`
   width: 140px;
   height: 45px;
-  font-weight: bold;
+  font-weight: 700;
   color: #9babff;
   border: 1px solid #9babff;
 
@@ -91,5 +91,5 @@ export const LogoText = styled.div`
 `
 
 export const GraphQL = styled.span`
-  font-weight: bold;
+  font-weight: 700;
 `

@@ -6,7 +6,7 @@ const whiteButtonStyle = css`
   min-width: 250px;
   line-height: 1;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
 
   display: inline-flex;
   align-items: center;

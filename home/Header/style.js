@@ -44,7 +44,7 @@ export const Title = styled.div`
   user-select: none;
 
   font-size: 151px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 0.92;
 
   ${mobile(css`
@@ -120,7 +120,7 @@ export const LocationAndDate = styled.div`
   margin-bottom: 52px;
 
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.4;
   text-align: right;
 

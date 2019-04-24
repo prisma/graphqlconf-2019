@@ -54,7 +54,7 @@ const Icon = styled.div`
   justify-content: center;
 
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   background: #2e1865;
   border-radius: 30px;
   color: white;
@@ -70,7 +70,7 @@ const Text = styled.div`
 `
 
 const Channel = styled.span`
-  font-weight: bold;
+  font-weight: 700;
   color: #7a808a;
   user-select: text;
 `

@@ -4,7 +4,7 @@ import { mobile } from '../utils/media'
 export const Title = styled.h2`
   font-size: 45px;
   line-height: 1.16;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
 
   margin: 0;

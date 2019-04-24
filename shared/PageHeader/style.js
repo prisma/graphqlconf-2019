@@ -23,7 +23,7 @@ export const Wrapper = styled.header`
 
 export const Title = styled.h1`
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 0.92;
   font-size: 151px;
 
