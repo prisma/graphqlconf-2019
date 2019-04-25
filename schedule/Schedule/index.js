@@ -14,7 +14,7 @@ import Lunch from '../Lunch'
 // Schedule
 export class Schedule extends React.Component {
 
-  state = { activeDate: 20 }
+  state = { activeDate: 21 }
 
   setActiveDate = date => {
     this.setState({ activeDate: date })
@@ -56,13 +56,12 @@ const ThursdaySchedule = () => (
 
     <Event
       timeslot="9:30 am - 10:00 am"
-      title="Keynote: GraphQL before GraphQL"
+      title="GraphQL before GraphQL"
       photo="/static/schedule/dan@2x.png"
       author="Dan Schafer"
       length="30 min"
       tag="Talk"
       color="#74018B"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
     />
 
     <Event
@@ -73,7 +72,6 @@ const ThursdaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
     />
 
     <Event
@@ -86,24 +84,24 @@ const ThursdaySchedule = () => (
 
     <Event
       timeslot="11:00 am - 11:30 am"
-      title="Front end testing/mocking"
+      title="Building custom GraphQL tooling for your team"
       photo="/static/schedule/sashko@2x.png"
       author="Sashko Stubailo"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description={<>One of the main reasons we started using GraphQL for data fetching in the Stripe Dashboard was the variety of off-the-shelf tooling available in the community. As we integrated, we discovered opportunities to improve the stack, and some needs that were specific to Stripe. Thankfully, GraphQL also makes it really convenient to build custom tools to fit the specific needs of your project or organization. <br/><br/>In this talk, you'll learn about why GraphQL is uniquely suited to building custom tooling that won’t create a huge maintenance burden. First, I’ll cover some examples of the tools we built for our GraphQL implementation at Stripe. Then, I'll go over how you can build on top of existing libraries including GraphQL.js and graphql-tools. Finally, I'll give a step-by-step guide to building a new custom tool that you could use at your own company—a script that tells you where a certain GraphQL field is used in your frontend code.</>}
     />
 
     <Event
       timeslot="11:30 am - 12:00 pm"
-      title="Testing?"
+      title="200 OK! Error Handling in GraphQL"
       photo="/static/schedule/sasha@2x.png"
       author="Sasha Solomon"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="We all know what happens in GraphQL when things are going well, but what happens when things don't go so well? How do you handle errors in GraphQL? What is an error? Find out how not all 'errors' are errors, how we can have a better understanding of our data, and how to model domain errors in our GraphQL schema."
     />
 
     <Event
@@ -114,7 +112,7 @@ const ThursdaySchedule = () => (
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="Hit the ground running with GraphQL by refactoring your mental approach to how you write APIs. REST APIs revolve around fulfilling one purpose per endpoint. To work with GraphQL you have to think about multiple use cases in one endpoint, this talk covers exactly how to do that."
     />
 
     <Event
@@ -128,12 +126,12 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="2:00 pm - 2:30 pm"
       title="Paving a New Path for GraphQL Schemas"
-      photo="/static/schedule/no-face@2x.png"
+      photo="/static/schedule/tim@2x.png"
       author="Tim Griesser"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="Schema-first (SDL) development is common in the JS ecosystem, yet isn't in most other languages. Why? What if we challenged this 'best practice' with something even better - a library with a declarative API and full type safety out of the box - without needing manual type-annotation (even in JS)!"
     />
 
     <Event
@@ -144,7 +142,7 @@ const ThursdaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="Tartiflette is a brand new GraphQL Implementation built with and for python 3.6+, based on dailymotion's experience of running a GraphQL API in production for 2,5 years. We will discover some of the interesting features provided by the SDL First approach of the Tartiflette Engine."
     />
 
     <Event
@@ -155,7 +153,7 @@ const ThursdaySchedule = () => (
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="At first sight, design and GraphQL might seem completely unrelated, but can we use it to make design accessible to everyone? In this talk we'll see how GraphQL has the power to revolutionise the way designers, engineers and managers communicate. You'll have to query it to believe it!"
     />
 
     <Event
@@ -169,12 +167,12 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="3:45 pm - 4:15 pm"
       title="How to Move a Mountain? GraphQL Migration Best Practices"
-      photo="/static/schedule/no-face@2x.png"
+      photo="/static/schedule/kewei@2x.png"
       author="Kewei Qu"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="Migration is a challenge the vibrant GraphQL community constantly faces. At Facebook, the  GraphQL server team and Relay team each carried out a massive migration independently. We distill the lessons we learned in both migrations into principles and practices to share with the community."
     />
 
     <Event
@@ -185,7 +183,7 @@ const ThursdaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="We've been hearing a lot on GraphQL being an amazing tool to enable distribution of services and APIs. Schema stitching, API Gateways, namespaces, schema modules; Are we on the right track? Let's take a deep look at the role of GraphQL in a distributed architecture."
     />
 
     <Event
@@ -196,7 +194,7 @@ const ThursdaySchedule = () => (
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="GraphQL has become a mainstream alternative to REST. The large majority of open source solutions are based on a runtime approach to execute queries. We  built a compiler for GraphQL that compiles each query to JS that is between 10 to 50 times faster than the runtime approach."
     />
 
     <Event
@@ -220,7 +218,7 @@ const FridaySchedule = () => (
       tag="Welcoming"
     />
 
-    <Event
+    {/* <Event
       timeslot="9:30 am - 10:00 am"
       title="End to end type safety"
       photo="/static/schedule/lauren@2x.png"
@@ -229,17 +227,27 @@ const FridaySchedule = () => (
       tag="Talk"
       color="#74018B"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+    /> */}
+
+    <Event
+      timeslot="9:30 am - 10:00 am"
+      title="To Be Announced"
+      photo="/static/schedule/no-face@2x.png"
+      author="To Be Announced"
+      length="30 min"
+      tag="Talk"
+      color="#888"
     />
 
     <Event
       timeslot="10:00 am - 10:30 am"
-      title="Type safety / GraphQL native dev / flexible"
+      title="Yoga – Building type-safe GraphQL servers without boilerplate"
       photo="/static/schedule/nikolas@2x.png"
       author="Nikolas Burk"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description={<>The Yoga framework enables building fully type-safe GraphQL servers with a Ruby-on-Rails-like developer experience. Yoga follows a code-first approach and makes it easy to connect your resolvers to a database via Prisma. Yoga is lightweight, values conventions over configuration and comes with a built-in CLI to support common development workflows.<br/><br/>This talk introduces the motivations behind Yoga, compares it to the currently popular "schema-first" approach for GraphQL servers and ends with a live demo of the Yoga framework.</>}
     />
 
     <Event
@@ -258,7 +266,7 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="GraphQL makes it easy for mobile designers and engineers to get graph data from a server somewhere. But many people fail to update their versioned clients such as iOS and Android. We discuss the communal and technical components of Facebook's approach to managing the lifecycle of a schema."
     />
 
     <Event
@@ -269,10 +277,10 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description={<>Gatsby uses GraphQL in a pretty unique way — type inference, automatic filter and connection generation. <br/><br/>This talk will be a deep dive in we use GraphQL to support querying data from hundreds of different source plugins. We'll also look at the future of GraphQL at Gatsby and exciting new features.</>}
     />
 
-    <Event
+    {/* <Event
       timeslot="12:00 pm - 12:15 pm"
       title="Securing Your GraphQL API from Malicious Queries"
       photo="/static/schedule/no-face@2x.png"
@@ -281,6 +289,16 @@ const FridaySchedule = () => (
       tag="Lightning Talk"
       color="#CF0203"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+    /> */}
+
+    <Event
+      timeslot="12:00 pm - 12:15 am"
+      title="To Be Announced"
+      photo="/static/schedule/no-face@2x.png"
+      author="To Be Announced"
+      length="15 min"
+      tag="Lightning Talk"
+      color="#888"
     />
 
     <Event
@@ -293,13 +311,13 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="2:00 pm - 2:30 pm"
-      title="Apollo"
+      title="Apollo Schema Federation"
       photo="/static/schedule/james@2x.png"
       author="James Baxley"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description={<>GraphQL allows organizations to expose their data in a single graph, instead of as independent endpoints that require clients to be aware of service boundaries and to follow relationships between entities manually. Defining and deploying your data graph in a monolithic schema doesn’t scale however. <br/><br/>As GraphQL adoption within an organization grows, schema design shifts from being a single team responsibility to being an organization-wide concern. In this talk, I will introduce Apollo schema federation which is the evolution of schema stitching.</>}
     />
 
     <Event
@@ -310,7 +328,7 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="You use GraphQL, but you want to really understand how GraphQL works? So join us a for a in-depth explanation of how a GraphQL query is actually executed and how it is implemented."
     />
 
     <Event
@@ -321,7 +339,7 @@ const FridaySchedule = () => (
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="Our team in Visa built a real-time monitoring dashboard apart from Grafana to reduce the load on the server side by introducing Push model from the server side to the browsers using Graphql Subscriptions. This made us to reduce the load on our server by 5x and helps support team to decrease the MTD."
     />
 
     <Event
@@ -334,13 +352,13 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="3:45 pm - 4:15 pm"
-      title="Real time"
+      title="GraphQL Subscriptions at Twitter"
       photo="/static/schedule/mirela@2x.png"
       author="Mirela Icleoden"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
+      description="The people who use Twitter need to see what's happening as soon as it happens. It's vital that we can deliver Tweets as fast as possible. Based on this mindset and need, TweetDeck and GraphQL teams built a new streaming system at Twitter that delivers Tweets in near real time. This talk covers the need for GraphQL Subscriptions at Twitter, a walk-through of the final architecture and the challenges that we faced while building it in a microservices ecosystem."
     />
 
     <Event
@@ -349,8 +367,6 @@ const FridaySchedule = () => (
       photo="/static/schedule/no-face@2x.png"
       length="45 min"
       tag="Documentary"
-      color="#3D00C3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
     />
 
     <Event
@@ -361,7 +377,6 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Closing Keynote"
       color="#CF0203"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
     />
 
     <Event
