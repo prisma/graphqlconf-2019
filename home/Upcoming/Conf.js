@@ -40,7 +40,7 @@ const Name = styled.div`
 
   ${mobile(css`
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 700;
   `)};
 `
 

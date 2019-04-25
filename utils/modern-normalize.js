@@ -88,7 +88,7 @@ export default css`
 
   b,
   strong {
-    font-weight: bolder;
+    font-weight: 700;
   }
 
   /**

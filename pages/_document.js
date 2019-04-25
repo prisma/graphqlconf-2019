@@ -23,23 +23,30 @@ injectGlobal`
 
   @font-face {
     font-family: 'Space Grotesk';
+    src:  url('/static/fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+          url('/static/fonts/SpaceGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
     src:  url('/static/fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
           url('/static/fonts/SpaceGrotesk-Regular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src:  url('/static/fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+          url('/static/fonts/SpaceGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
   }
 
   @font-face {
     font-family: 'Space Grotesk';
     src:  url('/static/fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
           url('/static/fonts/SpaceGrotesk-Bold.woff') format('woff');
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: 'Space Grotesk';
-    src:  url('/static/fonts/SpaceGrotesk-Light.woff2') format('woff2'),
-          url('/static/fonts/SpaceGrotesk-Light.woff') format('woff');
-    font-weight: 300;
+    font-weight: 700;
   }
 `
 

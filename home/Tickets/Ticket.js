@@ -92,7 +92,7 @@ const Title = styled.div`
 
 const PriceTag = styled.div`
   color: black;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 70px;
   margin-top: 12px;
 `
@@ -111,7 +111,7 @@ const LinkButton = styled.a`
   height: 60px;
   width: 100%;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;

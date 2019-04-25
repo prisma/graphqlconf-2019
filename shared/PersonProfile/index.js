@@ -87,7 +87,7 @@ const FirstRow = styled.div`
 `
 
 const Name = styled.div`
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.4;
   vertical-align: middle;
