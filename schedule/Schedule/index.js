@@ -14,7 +14,7 @@ import Lunch from '../Lunch'
 // Schedule
 export class Schedule extends React.Component {
 
-  state = { activeDate: 21 }
+  state = { activeDate: 20 }
 
   setActiveDate = date => {
     this.setState({ activeDate: date })
