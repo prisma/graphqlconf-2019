@@ -183,7 +183,7 @@ export const Speakers = () => {
             <PersonProfile
               name="Sidhartha Chatterjee"
               bio={'OSS Maintainer at Gatsby'}
-              photoSrc="sidhartha.jpg"
+              photoSrc="/static/speakers/sidhartha.jpg"
             />
           </GridItem>
 
