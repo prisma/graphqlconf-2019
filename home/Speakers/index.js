@@ -111,19 +111,23 @@ export const Speakers = () => {
             />
           </GridItem>
 
-          {/* Don't remove place holder until CFP has ended */}
           <GridItem>
             <PersonProfile
-              name="Who’s there?"
-              bio={
-                <>
-                  You.{' '}
-                  <a href="https://www.papercall.io/graphqlconf19">
-                    Submit a talk!
-                  </a>
-                </>
-              }
-              placeholder={true}
+              name="Andreas Marek"
+              bio={'Senior Developer at Atlassian'}
+              photoSrc="/static/speakers/andreas.png"
+              twitter="andimarek"
+              github="andimarek"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Andreas Marek"
+              bio={'Senior Developer at Atlassian'}
+              photoSrc="/static/speakers/andreas.png"
+              twitter="andimarek"
+              github="andimarek"
             />
           </GridItem>
         </Grid>
