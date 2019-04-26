@@ -168,6 +168,44 @@ export const Speakers = () => {
               github="builtbyproxy"
             />
           </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Marc-Andre Giroux"
+              bio={'Senior Platform Engineer at Github'}
+              photoSrc="/static/speakers/marc.jpg"
+              twitter="__xuorig__"
+              github="xuorig"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Rui Araújo"
+              bio={'Engineering Lead at Zalando'}
+              photoSrc="/static/speakers/rui.jpg"
+              twitter="raraujoc"
+              github="ruiaraujo"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Sidhartha Chatterjee"
+              bio={'OSS Maintainer at Gatsby'}
+              photoSrc="sidhartha.jpg"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Stan Chollet"
+              bio={'Engineering Manager at Dailymotion'}
+              photoSrc="/static/speakers/stanislas.jpg"
+              twitter="tsunammis"
+              github="tsunammis"
+            />
+          </GridItem>
         </Grid>
       </Wrapper>
     </Container>
