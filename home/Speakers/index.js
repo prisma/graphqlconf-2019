@@ -131,16 +131,6 @@ export const Speakers = () => {
 
           <GridItem>
             <PersonProfile
-              name="Andreas Marek"
-              bio={'Senior Developer at Atlassian'}
-              photoSrc="/static/speakers/andreas.jpg"
-              twitter="andimarek"
-              github="andimarek"
-            />
-          </GridItem>
-
-          <GridItem>
-            <PersonProfile
               name="Bernardo Raposo"
               bio={'Software Engineer at TravelRepublic'}
               photoSrc="/static/speakers/bernardo.jpg"
@@ -163,7 +153,7 @@ export const Speakers = () => {
             <PersonProfile
               name="Lachlan Young"
               bio={'Fullstack Software Developer at Maxkelsen'}
-              photoSrc="/static/speakers/andreas.jpg"
+              photoSrc="/static/speakers/lachlan.jpg"
               twitter="builtbyproxy"
               github="builtbyproxy"
             />
