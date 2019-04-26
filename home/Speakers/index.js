@@ -123,11 +123,49 @@ export const Speakers = () => {
 
           <GridItem>
             <PersonProfile
+              name="Adam D. I. Kramer"
+              bio={'Software Engineer at Facebook'}
+              photoSrc="/static/speakers/adam.jpg"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
               name="Andreas Marek"
               bio={'Senior Developer at Atlassian'}
               photoSrc="/static/speakers/andreas.jpg"
               twitter="andimarek"
               github="andimarek"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Bernardo Raposo"
+              bio={'Software Engineer at TravelRepublic'}
+              photoSrc="/static/speakers/bernardo.jpg"
+              twitter="braposo"
+              github="braposo"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Kewei Qu"
+              bio={'Software Engineer at Facebook'}
+              photoSrc="/static/speakers/kewei.jpg"
+              twitter="kewei_qu"
+              github="Keweiqu"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Lachlan Young"
+              bio={'Fullstack Software Developer at Maxkelsen'}
+              photoSrc="/static/speakers/andreas.jpg"
+              twitter="builtbyproxy"
+              github="builtbyproxy"
             />
           </GridItem>
         </Grid>
