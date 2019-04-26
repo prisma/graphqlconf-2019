@@ -174,6 +174,8 @@ export const Speakers = () => {
               name="Sidhartha Chatterjee"
               bio={'OSS Maintainer at Gatsby'}
               photoSrc="/static/speakers/sidhartha.jpg"
+              twitter="chatsidhartha "
+              github="sidharthachatterjee"
             />
           </GridItem>
 
