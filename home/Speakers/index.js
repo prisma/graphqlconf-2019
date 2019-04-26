@@ -115,7 +115,7 @@ export const Speakers = () => {
             <PersonProfile
               name="Andreas Marek"
               bio={'Senior Developer at Atlassian'}
-              photoSrc="/static/speakers/andreas.png"
+              photoSrc="/static/speakers/andreas.jpg"
               twitter="andimarek"
               github="andimarek"
             />
@@ -125,7 +125,7 @@ export const Speakers = () => {
             <PersonProfile
               name="Andreas Marek"
               bio={'Senior Developer at Atlassian'}
-              photoSrc="/static/speakers/andreas.png"
+              photoSrc="/static/speakers/andreas.jpg"
               twitter="andimarek"
               github="andimarek"
             />
