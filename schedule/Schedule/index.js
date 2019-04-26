@@ -239,7 +239,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="9:30 am - 10:00 am"
       title="Create Type-Safe Web Applications with ReasonML and GraphQL"
-      photo="/static/schedule/roy@2x"
+      photo="/static/schedule/roy@2x.png"
       author="Roy Derks"
       length="30 min"
       tag="Talk"
