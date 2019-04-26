@@ -13,7 +13,6 @@ import Lunch from '../Lunch'
 
 // Schedule
 export class Schedule extends React.Component {
-
   state = { activeDate: 20 }
 
   setActiveDate = date => {
@@ -21,23 +20,23 @@ export class Schedule extends React.Component {
   }
 
   render() {
-
     return (
       <Container>
+        <DaySwitch
+          activeDate={this.state.activeDate}
+          handleClick={e => this.setActiveDate(e)}
+        />
+
+        {this.state.activeDate === 20 ? (
+          <ThursdaySchedule />
+        ) : (
+          <FridaySchedule />
+        )}
 
         <DaySwitch
           activeDate={this.state.activeDate}
-          handleClick={e => this.setActiveDate(e)} />
-
-        { this.state.activeDate === 20
-          ? <ThursdaySchedule />
-          : <FridaySchedule />
-        }
-
-        <DaySwitch
-          activeDate={this.state.activeDate}
-          handleClick={e => this.setActiveDate(e)} />
-
+          handleClick={e => this.setActiveDate(e)}
+        />
       </Container>
     )
   }
@@ -49,7 +48,7 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="8:00 am - 9:30 am"
       title="Registration"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="1 h 30 min"
       tag="Welcoming"
     />
@@ -77,7 +76,7 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="10:30 am - 11:00 am"
       title="Coffee break"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="30 min"
       tag="Break"
     />
@@ -90,7 +89,26 @@ const ThursdaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description={<>One of the main reasons we started using GraphQL for data fetching in the Stripe Dashboard was the variety of off-the-shelf tooling available in the community. As we integrated, we discovered opportunities to improve the stack, and some needs that were specific to Stripe. Thankfully, GraphQL also makes it really convenient to build custom tools to fit the specific needs of your project or organization. <br/><br/>In this talk, you'll learn about why GraphQL is uniquely suited to building custom tooling that won’t create a huge maintenance burden. First, I’ll cover some examples of the tools we built for our GraphQL implementation at Stripe. Then, I'll go over how you can build on top of existing libraries including GraphQL.js and graphql-tools. Finally, I'll give a step-by-step guide to building a new custom tool that you could use at your own company—a script that tells you where a certain GraphQL field is used in your frontend code.</>}
+      description={
+        <>
+          One of the main reasons we started using GraphQL for data fetching in
+          the Stripe Dashboard was the variety of off-the-shelf tooling
+          available in the community. As we integrated, we discovered
+          opportunities to improve the stack, and some needs that were specific
+          to Stripe. Thankfully, GraphQL also makes it really convenient to
+          build custom tools to fit the specific needs of your project or
+          organization. <br />
+          <br />
+          In this talk, you'll learn about why GraphQL is uniquely suited to
+          building custom tooling that won’t create a huge maintenance burden.
+          First, I’ll cover some examples of the tools we built for our GraphQL
+          implementation at Stripe. Then, I'll go over how you can build on top
+          of existing libraries including GraphQL.js and graphql-tools. Finally,
+          I'll give a step-by-step guide to building a new custom tool that you
+          could use at your own company—a script that tells you where a certain
+          GraphQL field is used in your frontend code.
+        </>
+      }
     />
 
     <Event
@@ -118,14 +136,14 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="12:15 pm - 2:00 pm"
       title="Lunch break"
-      icon={<Lunch/>}
+      icon={<Lunch />}
       length="1 h 45 min"
       tag="Break"
     />
 
     <Event
       timeslot="2:00 pm - 2:30 pm"
-      title="Paving a New Path for GraphQL Schemas"
+      title="SDL as an Artifact: Code-First Schemas and GraphQL Nexus"
       photo="/static/schedule/tim@2x.png"
       author="Tim Griesser"
       length="30 min"
@@ -159,7 +177,7 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="3:15 pm - 3:45 pm"
       title="Coffee break"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="30 min"
       tag="Break"
     />
@@ -200,7 +218,7 @@ const ThursdaySchedule = () => (
     <Event
       timeslot="5:00 pm - 5:15 pm"
       title="Closing"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="15 min"
       tag="Closing"
     />
@@ -213,21 +231,21 @@ const FridaySchedule = () => (
     <Event
       timeslot="8:00 am - 9:30 am"
       title="Registration"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="1 h 30 min"
       tag="Welcoming"
     />
 
-    {/* <Event
+    <Event
       timeslot="9:30 am - 10:00 am"
-      title="End to end type safety"
-      photo="/static/schedule/lauren@2x.png"
-      author="Lauren Tan"
+      title="Create Type-Safe Web Applications with ReasonML and GraphQL"
+      photo="/static/schedule/roy@2x"
+      author="Roy Derks"
       length="30 min"
       tag="Talk"
       color="#74018B"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
-    /> */}
+      description="ReasonML is a 'brand new' syntax based on OCaml and offers a rock-solid type system, which compiles to JavaScript. Together with GraphQLs query language you can create the web application of the future!"
+    />
 
     <Event
       timeslot="9:30 am - 10:00 am"
@@ -247,13 +265,27 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description={<>The Yoga framework enables building fully type-safe GraphQL servers with a Ruby-on-Rails-like developer experience. Yoga follows a code-first approach and makes it easy to connect your resolvers to a database via Prisma. Yoga is lightweight, values conventions over configuration and comes with a built-in CLI to support common development workflows.<br/><br/>This talk introduces the motivations behind Yoga, compares it to the currently popular "schema-first" approach for GraphQL servers and ends with a live demo of the Yoga framework.</>}
+      description={
+        <>
+          The Yoga framework enables building fully type-safe GraphQL servers
+          with a Ruby-on-Rails-like developer experience. Yoga follows a
+          code-first approach and makes it easy to connect your resolvers to a
+          database via Prisma. Yoga is lightweight, values conventions over
+          configuration and comes with a built-in CLI to support common
+          development workflows.
+          <br />
+          <br />
+          This talk introduces the motivations behind Yoga, compares it to the
+          currently popular "schema-first" approach for GraphQL servers and ends
+          with a live demo of the Yoga framework.
+        </>
+      }
     />
 
     <Event
       timeslot="10:30 am - 11:00 am"
       title="Coffee break"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="30 min"
       tag="Break"
     />
@@ -277,7 +309,16 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description={<>Gatsby uses GraphQL in a pretty unique way — type inference, automatic filter and connection generation. <br/><br/>This talk will be a deep dive in we use GraphQL to support querying data from hundreds of different source plugins. We'll also look at the future of GraphQL at Gatsby and exciting new features.</>}
+      description={
+        <>
+          Gatsby uses GraphQL in a pretty unique way — type inference, automatic
+          filter and connection generation. <br />
+          <br />
+          This talk will be a deep dive in we use GraphQL to support querying
+          data from hundreds of different source plugins. We'll also look at the
+          future of GraphQL at Gatsby and exciting new features.
+        </>
+      }
     />
 
     {/* <Event
@@ -304,7 +345,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="12:15 pm - 2:00 pm"
       title="Lunch break"
-      icon={<Lunch/>}
+      icon={<Lunch />}
       length="1 h 45 min"
       tag="Break"
     />
@@ -317,7 +358,20 @@ const FridaySchedule = () => (
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description={<>GraphQL allows organizations to expose their data in a single graph, instead of as independent endpoints that require clients to be aware of service boundaries and to follow relationships between entities manually. Defining and deploying your data graph in a monolithic schema doesn’t scale however. <br/><br/>As GraphQL adoption within an organization grows, schema design shifts from being a single team responsibility to being an organization-wide concern. In this talk, I will introduce Apollo schema federation which is the evolution of schema stitching.</>}
+      description={
+        <>
+          GraphQL allows organizations to expose their data in a single graph,
+          instead of as independent endpoints that require clients to be aware
+          of service boundaries and to follow relationships between entities
+          manually. Defining and deploying your data graph in a monolithic
+          schema doesn’t scale however. <br />
+          <br />
+          As GraphQL adoption within an organization grows, schema design shifts
+          from being a single team responsibility to being an organization-wide
+          concern. In this talk, I will introduce Apollo schema federation which
+          is the evolution of schema stitching.
+        </>
+      }
     />
 
     <Event
@@ -333,7 +387,7 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="3:00 pm - 3:15 pm"
-      title="Graphql Subscriptions at scale for Real-time monitoring dashboard"
+      title="GraphQL Subscriptions at scale for Real-time monitoring dashboard"
       photo="/static/schedule/vimalraj@2x.png"
       author="Vimalraj Selvam"
       length="15 min"
@@ -345,7 +399,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="3:15 pm - 3:45 pm"
       title="Coffee break"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="30 min"
       tag="Break"
     />
@@ -382,7 +436,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="5:30 pm - 5:40 pm"
       title="Closing"
-      icon={<Coffee/>}
+      icon={<Coffee />}
       length="10 min"
       tag="Closing"
     />
@@ -390,7 +444,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="5:40 pm - 9:00 pm"
       title="Party at Kosmos"
-      icon={<Drinks/>}
+      icon={<Drinks />}
       length="3 h 20 min"
       tag="Party"
     />
@@ -398,7 +452,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="9:00 pm - 12:00 pm"
       title="After Party at the Bar"
-      icon={<Drinks/>}
+      icon={<Drinks />}
       length="3 h"
       tag="After Party"
     />
