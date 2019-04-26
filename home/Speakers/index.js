@@ -93,16 +93,6 @@ export const Speakers = () => {
 
           <GridItem>
             <PersonProfile
-              name="Lauren Tan"
-              bio={'Engineering Manager at Netflix'}
-              photoSrc="/static/speakers/lauren-tan.jpg"
-              twitter="sugarpirate_"
-              github="poteto"
-            />
-          </GridItem>
-
-          <GridItem>
-            <PersonProfile
               name="James Baxley"
               bio={'Engineering Manager at Apollo'}
               photoSrc="/static/speakers/james-baxley.png"
@@ -111,19 +101,123 @@ export const Speakers = () => {
             />
           </GridItem>
 
-          {/* Don't remove place holder until CFP has ended */}
           <GridItem>
             <PersonProfile
-              name="Who’s there?"
+              name="Andreas Marek"
+              bio={'Senior Developer at Atlassian'}
+              photoSrc="/static/speakers/andreas.jpg"
+              twitter="andimarek"
+              github="andimarek"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Adam D. I. Kramer"
+              bio={'Software Engineer at Facebook'}
+              photoSrc="/static/speakers/adam.jpg"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Kewei Qu"
+              bio={'Software Engineer at Facebook'}
+              photoSrc="/static/speakers/kewei.jpg"
+              twitter="kewei_qu"
+              github="Keweiqu"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Lachlan Young"
+              bio={'Fullstack Software Developer at Maxkelsen'}
+              photoSrc="/static/speakers/lachlan.jpg"
+              twitter="builtbyproxy"
+              github="builtbyproxy"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Marc-Andre Giroux"
+              bio={'Senior Platform Engineer at Github'}
+              photoSrc="/static/speakers/marc.jpg"
+              twitter="__xuorig__"
+              github="xuorig"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Rui Araújo"
+              bio={'Engineering Lead at Zalando'}
+              photoSrc="/static/speakers/rui.jpg"
+              twitter="raraujoc"
+              github="ruiaraujo"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Sidhartha Chatterjee"
+              bio={'OSS Maintainer at Gatsby'}
+              photoSrc="/static/speakers/sidhartha.jpg"
+              twitter="chatsidhartha "
+              github="sidharthachatterjee"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Stan Chollet"
+              bio={'Engineering Manager at Dailymotion'}
+              photoSrc="/static/speakers/stanislas.jpg"
+              twitter="tsunammis"
+              github="tsunammis"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Roy Derks"
               bio={
-                <>
-                  You.{' '}
-                  <a href="https://www.papercall.io/graphqlconf19">
-                    Submit a talk!
-                  </a>
-                </>
+                'Senior Frontend Developer at City of Amsterdam & Coach, ReactJS Academy'
               }
-              placeholder={true}
+              photoSrc="/static/speakers/roy.jpg"
+              twitter="gethackteam"
+              github="royderks"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Vimalraj Selvam"
+              bio={'Full-stack Staff Software Engineer at Visa'}
+              photoSrc="/static/speakers/vimalraj.jpg"
+              twitter="email2vimalraj"
+              github="email2vimalraj"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Tim Griesser"
+              bio={'Software Engineer at Cypress.io'}
+              photoSrc="/static/speakers/tim.jpg"
+              twitter="tgriesser"
+              github="tgriesser"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Bernardo Raposo"
+              bio={'Software Engineer at TravelRepublic'}
+              photoSrc="/static/speakers/bernardo.jpg"
+              twitter="braposo"
+              github="braposo"
             />
           </GridItem>
         </Grid>
