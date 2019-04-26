@@ -294,7 +294,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="11:30 am - 12:00 pm"
       title="Gatsby and GraphQL: Today and the Future"
-      photo="/static/schedule/no-face@2x.png"
+      photo="/static/schedule/sidhartha@2x.png"
       author="Sidhartha Chatterjee"
       length="30 min"
       tag="Talk"
@@ -367,7 +367,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="2:30 pm - 3:00 pm"
       title="GraphQL execution in-depth"
-      photo="/static/schedule/no-face@2x.png"
+      photo="/static/schedule/andreas@2x.png"
       author="Andreas Marek"
       length="30 min"
       tag="Talk"
@@ -408,7 +408,7 @@ const FridaySchedule = () => (
     <Event
       timeslot="4:15 pm - 5:00 pm"
       title="GraphQL Documentary"
-      photo="/static/schedule/no-face@2x.png"
+      photo="/static/schedule/graphql@2x.png"
       length="45 min"
       tag="Documentary"
     />
