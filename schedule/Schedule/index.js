@@ -248,16 +248,6 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="9:30 am - 10:00 am"
-      title="To Be Announced"
-      photo="/static/schedule/no-face@2x.png"
-      author="To Be Announced"
-      length="30 min"
-      tag="Talk"
-      color="#888"
-    />
-
-    <Event
       timeslot="10:00 am - 10:30 am"
       title="Yoga – Building type-safe GraphQL servers without boilerplate"
       photo="/static/schedule/nikolas@2x.png"
