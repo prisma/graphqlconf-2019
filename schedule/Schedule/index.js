@@ -108,7 +108,7 @@ const ThursdaySchedule = () => (
       timeslot="12:00 pm - 12:15 pm"
       title="Refactoring Your Mind from REST"
       photo="/static/schedule/lachlan@2x.png"
-      author="Lachlan"
+      author="Lachlan Young"
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
