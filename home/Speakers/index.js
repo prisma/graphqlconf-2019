@@ -121,16 +121,6 @@ export const Speakers = () => {
 
           <GridItem>
             <PersonProfile
-              name="Bernardo Raposo"
-              bio={'Software Engineer at TravelRepublic'}
-              photoSrc="/static/speakers/bernardo.jpg"
-              twitter="braposo"
-              github="braposo"
-            />
-          </GridItem>
-
-          <GridItem>
-            <PersonProfile
               name="Kewei Qu"
               bio={'Software Engineer at Facebook'}
               photoSrc="/static/speakers/kewei.jpg"
@@ -198,6 +188,36 @@ export const Speakers = () => {
               photoSrc="/static/speakers/roy.jpg"
               twitter="gethackteam"
               github="royderks"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Vimalraj Selvam"
+              bio={'Full-stack Staff Software Engineer at Visa'}
+              photoSrc="/static/speakers/vimalraj.jpg"
+              twitter="email2vimalraj"
+              github="email2vimalraj"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Tim Griesser"
+              bio={'Software Engineer at Cypress.io'}
+              photoSrc="/static/speakers/tim.jpg"
+              twitter="tgriesser"
+              github="tgriesser"
+            />
+          </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Bernardo Raposo"
+              bio={'Software Engineer at TravelRepublic'}
+              photoSrc="/static/speakers/bernardo.jpg"
+              twitter="braposo"
+              github="braposo"
             />
           </GridItem>
         </Grid>
