@@ -188,6 +188,18 @@ export const Speakers = () => {
               github="tsunammis"
             />
           </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Roy Derks"
+              bio={
+                'Senior Frontend Developer at City of Amsterdam & Coach, ReactJS Academy'
+              }
+              photoSrc="/static/speakers/roy.jpg"
+              twitter="gethackteam"
+              github="royderks"
+            />
+          </GridItem>
         </Grid>
       </Wrapper>
     </Container>
