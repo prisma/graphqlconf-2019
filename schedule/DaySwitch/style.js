@@ -13,23 +13,19 @@ export const Day = styled.div`
   align-items: center;
   justify-content: center;
   width: 50%;
-  padding: 32px;
-  margin: 0 12px;
+  padding: 18px;
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
   text-align: center;
   color: #fff;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 
   ${ p => p.isActive &&
     `color: #000;
      background-color: #fff;`
   }
-
-  &:first-child { margin-left: 0; }
-  &:last-child { margin-right: 0; }
 
   &:hover {
     cursor: pointer;

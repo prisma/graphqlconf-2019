@@ -11,7 +11,6 @@ export const Card = styled.div`
   border-radius: 5px;
   margin-bottom: 16px;
   border-left: solid 10px ${p => p.color || "#585858"};
-  border-right: solid 10px ${p => p.color || "#585858"};
 `
 
 export const Row = styled.div`
@@ -62,14 +61,14 @@ export const Left = styled.div``
 export const Title = styled.h2`
   color: ${p => p.color || "#000"};
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0 0 8px 0;
 `
 
 export const Time = styled.div`
   flex-shrink: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   color: #000;
   white-space: nowrap;

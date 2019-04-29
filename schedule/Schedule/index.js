@@ -15,16 +15,19 @@ import Lunch from '../Lunch'
 export class Schedule extends React.Component {
   state = { activeDate: 20 }
 
-  setActiveDate = date => {
+  handleDayClick = date => {
     this.setState({ activeDate: date })
+    document
+      .getElementById('talks')
+      .scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
   render() {
     return (
-      <Container>
+      <Container id="talks">
         <DaySwitch
           activeDate={this.state.activeDate}
-          handleClick={e => this.setActiveDate(e)}
+          handleClick={e => this.handleDayClick(e)}
         />
 
         {this.state.activeDate === 20 ? (
@@ -35,7 +38,7 @@ export class Schedule extends React.Component {
 
         <DaySwitch
           activeDate={this.state.activeDate}
-          handleClick={e => this.setActiveDate(e)}
+          handleClick={e => this.handleDayClick(e)}
         />
       </Container>
     )
