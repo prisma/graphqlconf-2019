@@ -311,26 +311,29 @@ const FridaySchedule = () => (
       }
     />
 
-    {/* <Event
+    <Event
       timeslot="12:00 pm - 12:15 pm"
-      title="Securing Your GraphQL API from Malicious Queries"
-      photo="/static/schedule/no-face@2x.png"
-      author="Max Stoiber"
+      title="Evolving the Graph"
+      photo="/static/schedule/jon@2x.png"
+      author="Jon Wong"
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus luctus molestie. Maecenas eget magna vel nisl bibendum porttitor. Nulla facilisi. Sed vehicula ut nisl ac auctor. Proin bibendum, odio et sodales hendrerit, ex nunc dapibus tellus, non pellentesque diam justo quis nisi. Aliquam egestas orci ut sapien mattis, ut efficitur magna congue. Donec vehicula ex in odio auctor, sit amet finibus tortor tristique."
-    /> */}
+      description="Federation. Schema Stitching. Delegation. How can you grow your “graph” in a safe, scalable way? What are the real-world benefits and drawbacks to GraphQL when not all of it is under your control?
+      
+      Hear how the ways we scaled our GraphQL adoption changed over the last three years."
+    />
 
-    <Event
+    {/* <Event
       timeslot="12:00 pm - 12:15 am"
-      title="To Be Announced"
-      photo="/static/schedule/no-face@2x.png"
+      title="Evolving the Graph"
+      photo="/static/schedule/jon@2x.png"
       author="To Be Announced"
       length="15 min"
       tag="Lightning Talk"
       color="#888"
     />
+    */}
 
     <Event
       timeslot="12:15 pm - 2:00 pm"

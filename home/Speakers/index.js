@@ -220,6 +220,16 @@ export const Speakers = () => {
               github="braposo"
             />
           </GridItem>
+
+          <GridItem>
+            <PersonProfile
+              name="Jon Wong"
+              bio={'Staff Software Engineer, Developer Experience @ Coursera'}
+              photoSrc="/static/speakers/jon.jpg"
+              twitter="jnwng"
+              github="jnwng"
+            />
+          </GridItem>
         </Grid>
       </Wrapper>
     </Container>
