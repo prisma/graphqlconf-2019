@@ -32,9 +32,9 @@ export const Footer = () => {
           </LogoColumn>
 
           <Column width={160}>
-            <FooterLink href="https://graphqlconf2019.eventbrite.com/?aff=website">
+            {/* <FooterLink href="https://graphqlconf2019.eventbrite.com/?aff=website">
               Attend
-            </FooterLink>
+            </FooterLink> */}
             <FooterLink href="/#speakers">Speakers</FooterLink>
             <FooterLink href="/#sp">Sponsors</FooterLink>
             <FooterLink href="https://www.eventbrite.com/e/graphql-conf-2019-tickets-47172725893?aff=website">
@@ -42,6 +42,9 @@ export const Footer = () => {
             </FooterLink>
             <Link href="/team" passHref>
               <FooterLink>Team</FooterLink>
+            </Link>
+            <Link href="/schedule" passHref>
+              <FooterLink>Schedule</FooterLink>
             </Link>
           </Column>
 
