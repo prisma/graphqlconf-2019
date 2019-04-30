@@ -170,7 +170,7 @@ const ThursdaySchedule = () => (
       timeslot="3:00 pm - 3:15 pm"
       title="Making design more human with GraphQL"
       photo="/static/schedule/bernardo@2x.png"
-      author="Bernardo Rapos"
+      author="Bernardo Raposo"
       length="15 min"
       tag="Lightning Talk"
       color="#CF0203"
