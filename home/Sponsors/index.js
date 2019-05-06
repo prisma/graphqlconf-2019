@@ -41,6 +41,15 @@ export const Sponsors = () => {
               <LogoImage href="https://www.github.com/">
                 <ReactImage src="/static/sponsors/github.svg" />
               </LogoImage>
+              <LogoImage href="https://www.8base.com/">
+                <ReactImage src="/static/sponsors/8base.png" />
+              </LogoImage>
+              <LogoImage href="https://www.jahia.com/home.html/">
+                <ReactImage src="/static/sponsors/jahia.png" />
+              </LogoImage>
+              <LogoImage href="https://neo4j.com/">
+                <ReactImage src="/static/sponsors/neo4j.png" />
+              </LogoImage>
             </Logos>
           </LogosArea>
         </Container>
