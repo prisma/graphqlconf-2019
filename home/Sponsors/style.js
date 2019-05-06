@@ -25,17 +25,14 @@ export const LogosArea = styled.div`
 `
 
 export const Logos = styled.div`
-  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: center;
   align-content: flex-end;
-
-  ${mobile(css`
-    justify-content: center;
-    flex-wrap: wrap;
-  `)};
+  flex-wrap: wrap;
 
   &:hover > * {
     opacity: 0.8;
@@ -45,13 +42,13 @@ export const Logos = styled.div`
 
 export const LogoImage = styled.a`
   display: block;
-  width: 100%;
   flex-grow: 1;
-  height: 150px;
+  max-width: 180px;
+  max-height: 100px;
+  margin: 24px 32px;
 
   ${mobile(css`
-    width: 180px;
-    height: 100px;
+    margin: 16px 24px;
   `)};
 
   img {
