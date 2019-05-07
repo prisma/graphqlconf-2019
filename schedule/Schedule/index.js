@@ -399,7 +399,7 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="3:45 pm - 4:15 pm"
-      title="GraphQL Subscriptions at Twitter"
+      title="Real-time @Twitter"
       photo="/static/schedule/mirela@2x.png"
       author="Mirela Icleoden"
       length="30 min"
