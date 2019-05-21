@@ -30,9 +30,9 @@ export default () => (
             <Title>Honeypot GmbH</Title>
 
             <Description addMarginTop>
-              Schönhauser Allee 45
+              Schlesische Straße 26
               <br />
-              10435 Berlin
+              10997 Berlin, Germany
             </Description>
 
             <Description addMarginTop>
@@ -44,17 +44,7 @@ export default () => (
             <Description addMarginTop>
               Managing Directors:
               <br />
-              Kaya Taner and Emma Tracey
-            </Description>
-          </GridItem>
-
-          <GridItem>
-            <Title>Asquera Event UG</Title>
-
-            <Description addMarginTop>
-              Ohlauer Straße 43
-              <br />
-              10999 Berlin
+              Kaya Taner, Emma Tracey, Dennis Muszynski
             </Description>
           </GridItem>
         </Grid>
