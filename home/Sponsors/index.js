@@ -50,9 +50,6 @@ export const Sponsors = () => {
               <LogoImage href="https://neo4j.com/">
                 <ReactImage src="/static/sponsors/neo4j.png" />
               </LogoImage>
-              <LogoImage href="https://reactjs.academy/">
-                <ReactImage src="/static/sponsors/reactjs-academy.svg" />
-              </LogoImage>
             </Logos>
           </LogosArea>
         </Container>

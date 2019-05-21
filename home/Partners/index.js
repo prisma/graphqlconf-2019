@@ -28,6 +28,13 @@ export const Partners = () => {
         >
           <ReactImage src="/static/partners/prisma-day.svg" />
         </LogoWrapper>
+        <LogoWrapper
+          href="https://reactjs.academy/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ReactImage src="/static/partners/reactjs-academy.svg" />
+        </LogoWrapper>
       </Wrapper>
       <Wrapper>
       </Wrapper>
