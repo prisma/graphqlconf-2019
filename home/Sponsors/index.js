@@ -41,6 +41,9 @@ export const Sponsors = () => {
               <LogoImage href="https://www.github.com/">
                 <ReactImage src="/static/sponsors/github.svg" />
               </LogoImage>
+              <LogoImage href="https://www.shopify.com/">
+                <ReactImage src="/static/sponsors/shopify.svg" />
+              </LogoImage>
               <LogoImage href="https://hasura.io/">
                 <ReactImage src="/static/sponsors/hasura.svg" />
               </LogoImage>

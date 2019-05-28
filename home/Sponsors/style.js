@@ -16,7 +16,7 @@ export const Wrapper = styled.section`
 
 export const LogosArea = styled.div`
   width: 100%;
-  height: 430px;
+  padding-top: 64px;
   padding-bottom: 20px;
 
   display: flex;
@@ -25,7 +25,7 @@ export const LogosArea = styled.div`
 `
 
 export const Logos = styled.div`
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 
   display: flex;
