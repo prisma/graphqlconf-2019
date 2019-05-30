@@ -14,7 +14,7 @@ import { StarsBackground } from '../home/StarsBackground'
 import { Highlights } from '../home/Highlights'
 import { Sponsors } from '../home/Sponsors'
 import { Tickets } from '../home/Tickets'
-import { Opportunity } from '../home/Tickets/Opportunity'
+import { Students } from '../home/Tickets/Students'
 import { Upcoming } from '../home/Upcoming'
 import { Partners } from '../home/Partners'
 import { Organizers } from '../shared/Organizers'
@@ -74,7 +74,7 @@ export default () => (
 
     <Space height={114} heightOnMobile={92} />
 
-    <Opportunity />
+    <Students />
 
     <Space height={144} heightOnMobile={110} />
 
