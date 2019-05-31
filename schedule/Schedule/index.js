@@ -372,13 +372,13 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="2:30 pm - 3:00 pm"
-      title="GraphQL execution in-depth"
+      title="GraphQL execution strategies"
       photo="/static/schedule/andreas@2x.png"
       author="Andreas Marek"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
-      description="You use GraphQL, but you want to really understand how GraphQL works? So join us a for a in-depth explanation of how a GraphQL query is actually executed and how it is implemented."
+      description="You use GraphQL, but you want to really understand how a query is executed or how to deal with the N+1 problem? Join  us for a deep dive into the world of GraphQL execution strategies: we will look at how the specification defines GraphQL execution, how to handle the N+1 problem and which alternative execution strategies exists."
     />
 
     <Event
