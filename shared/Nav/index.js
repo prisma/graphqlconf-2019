@@ -36,6 +36,10 @@ export const Nav = () => {
           Schedule
         </NavLink>
 
+        <NavLink href="/sponsors" hideOnMobile={true}>
+          Sponsors
+        </NavLink>
+
         <Link href="/team" passHref prefetch={true}>
           <NavLink hideOnMobile={true}>Team</NavLink>
         </Link>
