@@ -7,7 +7,7 @@ import { Container } from '../../shared/Container'
 import { Space } from '../../shared/Space'
 import { WhiteButtonLink } from '../../shared/WhiteButton'
 import { AnchorPoint } from '../../shared/AnchorPoint'
-import { Wrapper, Logos, LogosArea, LogoImage } from './style'
+import { Wrapper, Logos, LogosArea, LogoImage, LogoImageSmall, Hr } from './style'
 
 export const Sponsors = () => {
   return (
@@ -57,7 +57,28 @@ export const Sponsors = () => {
                 <ReactImage src="/static/sponsors/neo4j.png" />
               </LogoImage>
             </Logos>
+
+            <Hr/>
+
+            <Logos>
+              <LogoImageSmall href="https://www.coursera.org/">
+                <ReactImage src="/static/sponsors/coursera.svg" />
+              </LogoImageSmall>
+              <LogoImageSmall href="https://twitter.com/">
+                <ReactImage src="/static/sponsors/twitter.svg" />
+              </LogoImageSmall>
+              <LogoImageSmall href="https://facebook.com/">
+                <ReactImage src="/static/sponsors/facebook.svg" />
+              </LogoImageSmall>
+              <LogoImageSmall href="https://www.dailymotion.com/">
+                <ReactImage src="/static/sponsors/dailymotion.svg" />
+              </LogoImageSmall>
+              <LogoImageSmall href="https://maxkelsen.com/">
+                <ReactImage src="/static/sponsors/maxkelsen.svg" />
+              </LogoImageSmall>
+            </Logos>
           </LogosArea>
+
         </Container>
       </Wrapper>
     </>

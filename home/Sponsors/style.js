@@ -11,7 +11,7 @@ export const Wrapper = styled.section`
 
   width: 100vw;
   overflow: hidden;
-  min-height: 830px;
+  min-height: 930px;
 `
 
 export const LogosArea = styled.div`
@@ -22,6 +22,13 @@ export const LogosArea = styled.div`
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+`
+
+export const Hr = styled.div`
+  margin: 56px auto;
+  height: 4px;
+  background-image: linear-gradient( 207.67deg,#3d00c3 12.08%,#81027e 53.53%,#cf0203 95.62% );
+  width: 240px;
 `
 
 export const Logos = styled.div`
@@ -56,6 +63,29 @@ export const LogoImage = styled.a`
     height: 100%;
     object-fit: scale-down;
     object-position: center;
+  }
+
+  transition: opacity 200ms ease-out, filter 200ms ease-out;
+
+  &:hover {
+    opacity: 1;
+    filter: drop-shadow(0 9px 25px rgba(120, 200, 255, 0.6));
+  }
+`
+
+export const LogoImageSmall = styled.a`
+  display: block;
+  margin: 24px;
+  opacity: 0.6;
+
+  ${mobile(css`
+    margin: 16px 24px;
+  `)};
+
+  img {
+    display: block;
+    width: auto;
+    max-height: 24px;
   }
 
   transition: opacity 200ms ease-out, filter 200ms ease-out;
