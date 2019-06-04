@@ -21,7 +21,7 @@ export const Companies = () => {
           <Company
             name="8base"
             logoSrc="/static/sponsors/8base.png"
-            about="8base is built by developers, for developers and trusted by global enterprises. 8base was built to make developers' and innovators' lives easier. The company accomplishes this by continually abstracting away redundant and low-value add work, while never taking away a developer's ability to take full control if they so desire. 
+            about="8base is the only GraphQL based application development platform that enables front-end developers to build full enterprise apps using the modern enterprise data model.. 
             "
             link="https://8base.com/"
           />
@@ -49,6 +49,12 @@ export const Companies = () => {
             about="GitHub brings together the world's largest community of developers to discover, share, and build better software."
             link="https://github.com/"
           />
+        </GridItem>
+        <GridItem>
+          <Company logoSrc="/static/sponsors/shopify.svg" />
+        </GridItem>
+        <GridItem>
+          <Company logoSrc="/static/sponsors/hasura.svg" />
         </GridItem>
       </Grid>
     </Container>
