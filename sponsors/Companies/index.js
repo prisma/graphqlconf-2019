@@ -21,7 +21,7 @@ export const Companies = () => {
           <Company
             name="8base"
             logoSrc="/static/sponsors/8base.png"
-            about="8base is the only GraphQL based application development platform that enables front-end developers to build full enterprise apps using the modern enterprise data model.. 
+            about="8base is the only GraphQL based application development platform that enables front-end developers to build full enterprise apps using the modern enterprise data model. 
             "
             link="https://8base.com/"
           />
