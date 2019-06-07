@@ -38,7 +38,7 @@ export const Companies = () => {
           <Company
             name="Neo4j"
             logoSrc="/static/sponsors/neo4j.png"
-            about="Neo4j enables organizations to unlock the business value of connections, influences and relationships in data: through new applications that adapt to changing business needs, and by enabling existing applications to scale with the business. Headquartered in San Mateo, USA, Neo4j has offices in Sweden, the UK and Germany."
+            about="Neo4j is a native graph database that allows developers to model, store, and query data as a graph. The Neo4j GraphQL integrations enable developers to create GraphQL APIs backed by Neo4j using only GraphQL type definitions, leveraging the GRANDstack.io framework for building fullstack applications, all powered by GraphQL and Neo4j."
             link="https://neo4j.com"
           />
         </GridItem>
