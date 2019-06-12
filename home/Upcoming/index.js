@@ -32,23 +32,23 @@ export const Upcoming = () => {
           </GridItem>
           <GridItem>
             <Conf
-              name="GraphQL Summit"
+              name="Hasura Deep Dive"
               backgroundColor="#AE0135"
+              link="https://www.eventbrite.com/e/deep-dive-into-graphql-with-hasura-tickets-63330859305"
+            />
+          </GridItem>
+          <GridItem>
+            <Conf
+              name="GraphQL Summit"
+              backgroundColor="#74018B"
               link="https://summit.graphql.com/"
             />
           </GridItem>
           <GridItem>
             <Conf
               name="React Berlin"
-              backgroundColor="#74018B"
-              link="https://reactday.berlin/"
-            />
-          </GridItem>
-          <GridItem>
-            <Conf
-              name="GraphQL Berlin"
               backgroundColor="#3D00C3"
-              link="https://www.meetup.com/graphql-berlin/"
+              link="https://reactday.berlin/"
             />
           </GridItem>
         </Grid>
