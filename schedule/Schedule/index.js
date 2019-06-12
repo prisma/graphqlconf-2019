@@ -73,7 +73,7 @@ const ThursdaySchedule = () => (
       author="Matt Mahoney"
       length="30 min"
       tag="Talk"
-      description="GraphQL's JSON responses are great. At least until you try to get a field that doesn't exist. Our client GraphQL interfaces can lead to surprising scaling issues. Learn from our mistakes. See how client model chooses can prevent bugs and help your team scale."
+      description="GraphQL's JSON responses are great. At least until you try to get a field that doesn't exist. Our client GraphQL interfaces can lead to surprising scaling issues. Learn from our mistakes. See how client model choices can prevent bugs and help your team scale."
       color="#3D00C3"
     />
 
