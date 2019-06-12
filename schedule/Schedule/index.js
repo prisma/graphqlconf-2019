@@ -413,7 +413,7 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="4:15 pm - 5:00 pm"
+      timeslot="4:15 pm - 5:10 pm"
       title="GraphQL Documentary"
       photo="/static/schedule/graphql@2x.png"
       length="45 min"
@@ -421,7 +421,7 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="5:00 pm - 5:30 pm"
+      timeslot="5:10 pm - 5:40 pm"
       title="Timetravel"
       photo="/static/schedule/lee@2x.png"
       author="Lee Byron"
@@ -431,7 +431,7 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="5:30 pm - 5:40 pm"
+      timeslot="5:40 pm - 5:50 pm"
       title="Closing"
       icon={<Coffee />}
       length="10 min"
@@ -439,7 +439,7 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="5:40 pm - 9:00 pm"
+      timeslot="5:50 pm - 9:00 pm"
       title="Party at Kosmos"
       icon={<Drinks />}
       length="3 h 20 min"
