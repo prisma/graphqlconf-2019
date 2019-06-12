@@ -29,11 +29,11 @@ export const Partners = () => {
           <ReactImage src="/static/partners/prisma-day.svg" />
         </LogoWrapper>
         <LogoWrapper
-          href="https://reactjs.academy/"
+          href="https://reactgraphql.academy/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <ReactImage src="/static/partners/reactjs-academy.svg" />
+          <ReactImage src="/static/partners/reactgraphql-academy.svg" />
         </LogoWrapper>
       </Wrapper>
       <Wrapper>
