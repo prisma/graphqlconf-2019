@@ -16,7 +16,7 @@ export const Upcoming = () => {
           GraphQL Events
         </Title>
         <Description alignCenter addMarginTop maxWidth={460}>
-          Can’t wait for GraphQL Conf? Check out these exciting GraphQL related
+          Can’t get enough GraphQL? Check out these exciting GraphQL related
           events coming up.
         </Description>
 
