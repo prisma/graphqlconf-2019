@@ -422,12 +422,13 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="5:10 pm - 5:40 pm"
-      title="Timetravel"
+      title="We’re gunna program like it’s 1999"
       photo="/static/schedule/lee@2x.png"
       author="Lee Byron"
       length="30 min"
       tag="Closing Keynote"
       color="#CF0203"
+      description="The mental model for building for the web largely hasn’t changed in the last 20 years, but we’ve incorporated complexity, richness, grown our community a thousand fold, and scaled to billions. This year the web turns 30, and we look back at the steady march forward of better abstractions, better syntax, and better mental models that brought us here."
     />
 
     <Event
