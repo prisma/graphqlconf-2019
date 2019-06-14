@@ -84,7 +84,7 @@ export const Speakers = () => {
           <GridItem>
             <PersonProfile
               name="Sashko Stubailo"
-              bio={'Software Engineer at Stripe'}
+              bio={'Engineering Manager at Stripe'}
               photoSrc="/static/speakers/sashko-stubailo.png"
               twitter="stubailo"
               github="stubailo"
