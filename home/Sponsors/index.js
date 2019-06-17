@@ -76,6 +76,9 @@ export const Sponsors = () => {
               <LogoImageSmall href="https://maxkelsen.com/">
                 <ReactImage src="/static/sponsors/maxkelsen.svg" />
               </LogoImageSmall>
+              <LogoImageSmall href="https://www.apollographql.com/">
+                <ReactImage src="/static/sponsors/apollo.svg" />
+              </LogoImageSmall>
             </Logos>
           </LogosArea>
 
