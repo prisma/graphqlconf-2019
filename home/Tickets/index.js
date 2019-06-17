@@ -12,15 +12,15 @@ const linkToBuy = `https://graphqlconf2019.eventbrite.com/?aff=website`
 export const Tickets = () => {
   return (
     <Wrapper>
-      <Container>
+      {/* <Container>
         <Title textAlign="center">Get Your Ticket</Title>
         <Space height={8} />
         <Description alignCenter>Join us next Summer</Description>
 
         <Space height={30} />
-      </Container>
+      </Container> */}
 
-      <Rainbow>
+      {/* <Rainbow>
         <Container>
           <Grid>
             <GridItem>
@@ -60,7 +60,7 @@ export const Tickets = () => {
             </GridItem>
           </Grid>
         </Container>
-      </Rainbow>
+      </Rainbow> */}
     </Wrapper>
   )
 }
