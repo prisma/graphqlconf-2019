@@ -41,15 +41,6 @@ export const Speakers = () => {
               github="dschafer"
             />
           </GridItem>
-          <GridItem>
-            <PersonProfile
-              name="Mirela Iclodean"
-              bio={'Software Engineer at Twitter'}
-              photoSrc="/static/speakers/mirela-iclodean.jpg"
-              twitter="MirelaIclodean"
-              github="MirelaI"
-            />
-          </GridItem>
 
           <GridItem>
             <PersonProfile
@@ -161,11 +152,11 @@ export const Speakers = () => {
 
           <GridItem>
             <PersonProfile
-              name="Sidhartha Chatterjee"
-              bio={'OSS Maintainer at Gatsby'}
-              photoSrc="/static/speakers/sidhartha.jpg"
-              twitter="chatsidhartha "
-              github="sidharthachatterjee"
+              name="Kyle Mathews"
+              bio={'Founder/CEO, GatsbyJS'}
+              photoSrc="/static/speakers/kyle.jpg"
+              twitter="kylemathews"
+              github="KyleAMathews"
             />
           </GridItem>
 
