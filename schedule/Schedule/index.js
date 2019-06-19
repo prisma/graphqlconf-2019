@@ -398,7 +398,7 @@ const FridaySchedule = () => (
       timeslot="4:00 pm - 5:00 pm"
       title="GraphQL Documentary"
       photo="/static/schedule/graphql@2x.png"
-      length="45 min"
+      length="60 min"
       tag="Documentary"
     />
 
@@ -417,7 +417,7 @@ const FridaySchedule = () => (
       timeslot="5:30 pm - 5:45 pm"
       title="Closing"
       icon={<Coffee />}
-      length="10 min"
+      length="15 min"
       tag="Closing"
     />
 
@@ -425,7 +425,7 @@ const FridaySchedule = () => (
       timeslot="5:45 pm - 9:00 pm"
       title="Party at Kosmos"
       icon={<Drinks />}
-      length="3 h 20 min"
+      length="3 h 15 min"
       tag="Party"
     />
 
