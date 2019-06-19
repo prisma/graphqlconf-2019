@@ -253,7 +253,7 @@ const FridaySchedule = () => (
 
     <Event
       timeslot="10:00 am - 10:30 am"
-      title="Yoga – Building type-safe GraphQL servers without boilerplate"
+      title="Code-first & SDL-first GraphQL Server Development with Prisma"
       photo="/static/schedule/nikolas@2x.png"
       author="Nikolas Burk"
       length="30 min"
@@ -261,19 +261,10 @@ const FridaySchedule = () => (
       color="#3D00C3"
       description={
         <>
-          The Yoga framework enables building fully type-safe GraphQL servers
-          with a Ruby-on-Rails-like developer experience. Yoga follows a
-          code-first approach and makes it easy to connect your resolvers to a
-          database via Prisma. Yoga is lightweight, values conventions over
-          configuration and comes with a built-in CLI to support common
-          development workflows.
-          <br />
-          <br />
-          This talk introduces the motivations behind Yoga, compares it to the
-          currently popular "schema-first" approach for GraphQL servers and ends
-          with a live demo of the Yoga framework.
-        </>
-      }
+          Code-first and SDL-first are two approaches for constructing GraphQL schemas. This talk compares both approaches and gives
+          a demo showcasing how developers can choose either approach while using Prisma to connect their resolvers to a database.
+      </>
+}
     />
 
     <Event
