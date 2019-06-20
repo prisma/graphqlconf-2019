@@ -138,15 +138,15 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="12:15 pm - 2:00 pm"
+      timeslot="12:00 pm - 1:30 pm"
       title="Lunch break"
       icon={<Lunch />}
-      length="1 h 45 min"
+      length="1 h 30 min"
       tag="Break"
     />
 
     <Event
-      timeslot="2:00 pm - 2:30 pm"
+      timeslot="1:30 pm - 2:00 pm"
       title="SDL as an Artifact: Code-First Schemas and GraphQL Nexus"
       photo="/static/schedule/tim@2x.png"
       author="Tim Griesser"
@@ -157,7 +157,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="2:30 pm - 3:00 pm"
+      timeslot="2:00 pm - 2:30 pm"
       title={`Introducing Tartiflette: "SDL First" implementation built for Python 3.6+`}
       photo="/static/schedule/stan@2x.png"
       author="Stan Chollett"
@@ -168,7 +168,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="3:00 pm - 3:15 pm"
+      timeslot="2:30 pm - 2:45 pm"
       title="Making design more human with GraphQL"
       photo="/static/schedule/bernardo@2x.png"
       author="Bernardo Raposo"
@@ -179,7 +179,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="3:15 pm - 3:45 pm"
+      timeslot="2:45 pm - 3:15 pm"
       title="Coffee break"
       icon={<Coffee />}
       length="30 min"
@@ -187,7 +187,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="3:45 pm - 4:15 pm"
+      timeslot="3:15 pm - 3:45 pm"
       title="How to Move a Mountain? GraphQL Migration Best Practices"
       photo="/static/schedule/kewei@2x.png"
       author="Kewei Qu"
@@ -198,7 +198,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="4:15 pm - 4:45 pm"
+      timeslot="3:45 pm - 4:15 pm"
       title="So you Want to Distribute your GraphQL Schema?"
       photo="/static/schedule/marc@2x.png"
       author="Marc Andre-Giroux"
@@ -209,7 +209,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="4:45 pm - 5:00 pm"
+      timeslot="4:15 pm - 4:30 pm"
       title="Compiling GraphQL to be Blazing Fast"
       photo="/static/schedule/rui@2x.png"
       author="Rui Araújo"
@@ -220,7 +220,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="5:00 pm - 5:15 pm"
+      timeslot="4:30 pm - 4:45 pm"
       title="Closing"
       icon={<Coffee />}
       length="15 min"
