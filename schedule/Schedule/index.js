@@ -138,15 +138,15 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="12:15 pm - 2:00 pm"
+      timeslot="12:00 pm - 1:30 pm"
       title="Lunch break"
       icon={<Lunch />}
-      length="1 h 45 min"
+      length="1 h 30 min"
       tag="Break"
     />
 
     <Event
-      timeslot="2:00 pm - 2:30 pm"
+      timeslot="1:30 pm - 2:00 pm"
       title="SDL as an Artifact: Code-First Schemas and GraphQL Nexus"
       photo="/static/schedule/tim@2x.png"
       author="Tim Griesser"
@@ -157,7 +157,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="2:30 pm - 3:00 pm"
+      timeslot="2:00 pm - 2:30 pm"
       title={`Introducing Tartiflette: "SDL First" implementation built for Python 3.6+`}
       photo="/static/schedule/stan@2x.png"
       author="Stan Chollett"
@@ -168,7 +168,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="3:00 pm - 3:15 pm"
+      timeslot="2:30 pm - 2:45 pm"
       title="Making design more human with GraphQL"
       photo="/static/schedule/bernardo@2x.png"
       author="Bernardo Raposo"
@@ -179,7 +179,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="3:15 pm - 3:45 pm"
+      timeslot="2:45 pm - 3:15 pm"
       title="Coffee break"
       icon={<Coffee />}
       length="30 min"
@@ -187,7 +187,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="3:45 pm - 4:15 pm"
+      timeslot="3:15 pm - 3:45 pm"
       title="How to Move a Mountain? GraphQL Migration Best Practices"
       photo="/static/schedule/kewei@2x.png"
       author="Kewei Qu"
@@ -198,7 +198,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="4:15 pm - 4:45 pm"
+      timeslot="3:45 pm - 4:15 pm"
       title="So you Want to Distribute your GraphQL Schema?"
       photo="/static/schedule/marc@2x.png"
       author="Marc Andre-Giroux"
@@ -209,7 +209,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="4:45 pm - 5:00 pm"
+      timeslot="4:15 pm - 4:30 pm"
       title="Compiling GraphQL to be Blazing Fast"
       photo="/static/schedule/rui@2x.png"
       author="Rui Araújo"
@@ -220,7 +220,7 @@ const ThursdaySchedule = () => (
     />
 
     <Event
-      timeslot="5:00 pm - 5:15 pm"
+      timeslot="4:30 pm - 4:45 pm"
       title="Closing"
       icon={<Coffee />}
       length="15 min"
@@ -261,10 +261,19 @@ const FridaySchedule = () => (
       color="#3D00C3"
       description={
         <>
+<<<<<<< HEAD
           At Prisma, we have been highly involved with the GraphQL tooling ecosystem
           over the past few years. In this talk, we share our learnings from this time and present our perspective on best practices for GraphQL server development in 2019.
       </>
 }
+=======
+          Code-first and SDL-first are two approaches for constructing GraphQL
+          schemas. This talk compares both approaches and gives a demo
+          showcasing how developers can choose either approach while using
+          Prisma to connect their resolvers to a database.
+        </>
+      }
+>>>>>>> eae587be04a9d279b3154f2b0c892bab006174d4
     />
 
     <Event
@@ -289,8 +298,8 @@ const FridaySchedule = () => (
     <Event
       timeslot="11:30 am - 12:00 pm"
       title="Gatsby and GraphQL: Today and the Future"
-      photo="/static/schedule/sidhartha@2x.png"
-      author="Sidhartha Chatterjee"
+      photo="/static/schedule/kyle@2x.jpg"
+      author="Kyle Mathews"
       length="30 min"
       tag="Talk"
       color="#3D00C3"
@@ -385,34 +394,23 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="3:15 pm - 3:45 pm"
+      timeslot="3:15 pm - 4:00 pm"
       title="Coffee break"
       icon={<Coffee />}
-      length="30 min"
+      length="45 min"
       tag="Break"
     />
 
     <Event
-      timeslot="3:45 pm - 4:15 pm"
-      title="Real-time @Twitter"
-      photo="/static/schedule/mirela@2x.png"
-      author="Mirela Icleoden"
-      length="30 min"
-      tag="Talk"
-      color="#3D00C3"
-      description="The people who use Twitter need to see what's happening as soon as it happens. It's vital that we can deliver Tweets as fast as possible. Based on this mindset and need, TweetDeck and GraphQL teams built a new streaming system at Twitter that delivers Tweets in near real time. This talk covers the need for GraphQL Subscriptions at Twitter, a walk-through of the final architecture and the challenges that we faced while building it in a microservices ecosystem."
-    />
-
-    <Event
-      timeslot="4:15 pm - 5:10 pm"
+      timeslot="4:00 pm - 5:00 pm"
       title="GraphQL Documentary"
       photo="/static/schedule/graphql@2x.png"
-      length="45 min"
+      length="60 min"
       tag="Documentary"
     />
 
     <Event
-      timeslot="5:10 pm - 5:40 pm"
+      timeslot="5:00 pm - 5:30 pm"
       title="We’re gunna program like it’s 1999"
       photo="/static/schedule/lee@2x.png"
       author="Lee Byron"
@@ -423,18 +421,18 @@ const FridaySchedule = () => (
     />
 
     <Event
-      timeslot="5:40 pm - 5:50 pm"
+      timeslot="5:30 pm - 5:45 pm"
       title="Closing"
       icon={<Coffee />}
-      length="10 min"
+      length="15 min"
       tag="Closing"
     />
 
     <Event
-      timeslot="5:50 pm - 9:00 pm"
+      timeslot="5:45 pm - 9:00 pm"
       title="Party at Kosmos"
       icon={<Drinks />}
-      length="3 h 20 min"
+      length="3 h 15 min"
       tag="Party"
     />
 
