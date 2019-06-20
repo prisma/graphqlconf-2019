@@ -261,19 +261,10 @@ const FridaySchedule = () => (
       color="#3D00C3"
       description={
         <>
-<<<<<<< HEAD
           At Prisma, we have been highly involved with the GraphQL tooling ecosystem
           over the past few years. In this talk, we share our learnings from this time and present our perspective on best practices for GraphQL server development in 2019.
       </>
 }
-=======
-          Code-first and SDL-first are two approaches for constructing GraphQL
-          schemas. This talk compares both approaches and gives a demo
-          showcasing how developers can choose either approach while using
-          Prisma to connect their resolvers to a database.
-        </>
-      }
->>>>>>> eae587be04a9d279b3154f2b0c892bab006174d4
     />
 
     <Event
