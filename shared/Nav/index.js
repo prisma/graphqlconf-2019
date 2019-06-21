@@ -32,11 +32,11 @@ export const Nav = () => {
 
         <NavLink href="/#speakers">Speakers</NavLink>
 
-        <NavLink href="/schedule" hideOnMobile={true}>
+        <NavLink href="/schedule">
           Schedule
         </NavLink>
 
-        <NavLink href="/sponsors" hideOnMobile={true}>
+        <NavLink href="/sponsors">
           Sponsors
         </NavLink>
 

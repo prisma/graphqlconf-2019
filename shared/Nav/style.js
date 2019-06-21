@@ -56,9 +56,10 @@ export const NavButtonStyle = styled.a`
   }
 
   ${mobile(css`
-    width: auto;
+    /* width: auto;
     height: 35px;
-    border: none;
+    border: none; */
+    display: none;
   `)};
 `
 
