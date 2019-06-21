@@ -12,7 +12,7 @@ export const Companies = () => {
         <GridItem>
           <Company
             name="commercetools"
-            logoSrc="/static/sponsors/commercetools.svg"
+            logoSrc="/static/sponsors/commercetools.png"
             about="commercetools is a next-generation software company that offers a cloud-based, headless commerce platform, providing the building blocks for the new digital commerce age. commercetools was founded in 2006. Brands such as Bang & Olufsen, Carhartt WIP, Express, and Wizards of the Coast (Hasbro) trust commercetools to power their digital commerce business."
             link="https://commercetools.com/"
           />
@@ -45,16 +45,16 @@ export const Companies = () => {
         <GridItem>
           <Company
             name="Github"
-            logoSrc="/static/sponsors/github.svg"
+            logoSrc="/static/sponsors/github.png"
             about="GitHub brings together the world's largest community of developers to discover, share, and build better software."
             link="https://github.com/"
           />
         </GridItem>
         <GridItem>
-          <Company logoSrc="/static/sponsors/shopify.svg" />
+          <Company logoSrc="/static/sponsors/shopify.png" />
         </GridItem>
         <GridItem>
-          <Company logoSrc="/static/sponsors/hasura.svg" />
+          <Company logoSrc="/static/sponsors/hasura.png" />
         </GridItem>
       </Grid>
     </Container>

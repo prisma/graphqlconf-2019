@@ -36,16 +36,16 @@ export const Sponsors = () => {
           <LogosArea>
             <Logos>
               <LogoImage href="https://commercetools.com/">
-                <ReactImage src="/static/sponsors/commercetools.svg" />
+                <ReactImage src="/static/sponsors/commercetools.png" />
               </LogoImage>
               <LogoImage href="https://www.github.com/">
-                <ReactImage src="/static/sponsors/github.svg" />
+                <ReactImage src="/static/sponsors/github.png" />
               </LogoImage>
               <LogoImage href="https://www.shopify.com/">
-                <ReactImage src="/static/sponsors/shopify.svg" />
+                <ReactImage src="/static/sponsors/shopify.png" />
               </LogoImage>
               <LogoImage href="https://hasura.io/">
-                <ReactImage src="/static/sponsors/hasura.svg" />
+                <ReactImage src="/static/sponsors/hasura.png" />
               </LogoImage>
               <LogoImage href="https://www.8base.com/">
                 <ReactImage src="/static/sponsors/8base.png" />
@@ -62,22 +62,22 @@ export const Sponsors = () => {
 
             <Logos>
               <LogoImageSmall href="https://www.coursera.org/">
-                <ReactImage src="/static/sponsors/coursera.svg" />
+                <ReactImage src="/static/sponsors/coursera.png" />
               </LogoImageSmall>
               <LogoImageSmall href="https://twitter.com/">
-                <ReactImage src="/static/sponsors/twitter.svg" />
+                <ReactImage src="/static/sponsors/twitter.png" />
               </LogoImageSmall>
               <LogoImageSmall href="https://facebook.com/">
-                <ReactImage src="/static/sponsors/facebook.svg" />
+                <ReactImage src="/static/sponsors/facebook.png" />
               </LogoImageSmall>
               <LogoImageSmall href="https://www.dailymotion.com/">
-                <ReactImage src="/static/sponsors/dailymotion.svg" />
+                <ReactImage src="/static/sponsors/dailymotion.png" />
               </LogoImageSmall>
               <LogoImageSmall href="https://maxkelsen.com/">
-                <ReactImage src="/static/sponsors/maxkelsen.svg" />
+                <ReactImage src="/static/sponsors/maxkelsen.png" />
               </LogoImageSmall>
               <LogoImageSmall href="https://www.apollographql.com/">
-                <ReactImage src="/static/sponsors/apollo.svg" />
+                <ReactImage src="/static/sponsors/apollo.png" />
               </LogoImageSmall>
             </Logos>
           </LogosArea>
