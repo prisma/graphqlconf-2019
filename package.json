@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "luxon": "^1.4.3",
-    "next": "^7.0.2",
+    "next": "^9.3.2",
     "react": "^16.5.2",
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-confetti": "^2.3.0",
